@@ -223,7 +223,7 @@ class MyParser {
         itemMap.put("Country", null);
         itemMap.put("Buy_Price", null);
 
-        //System.out.println("GOT TO THIS FXN");
+        List<String> categoryList = new ArrayList<String>();
 
         org.w3c.dom.NamedNodeMap nattrib = n.getAttributes();
         // should only have one
@@ -240,17 +240,43 @@ class MyParser {
 
             String elemName = nlist.item(i).getNodeName();
 
+            // Construct the Item Table
             if (itemMap.containsKey(elemName)) {
                 org.w3c.dom.NodeList elemChild = nlist.item(i).getChildNodes();
 
                 if (elemChild.getLength() != 0) {
-                    itemMap.put(elemName, elemChild.item(0).getNodeValue());
+                    String result = elemChild.item(0).getNodeValue();
+
+                    if (result.length() > 4000) {
+                        result = result.substring(0, 4000);
+                        //System.out.println("OVER " + result.length() + elemName);
+                    }
+
+                    itemMap.put(elemName, result);
                     //System.out.println(elemName + " " + elemChild.item(0).getNodeValue());
                     //System.out.println("ItemID is " + item_id);
                 }
             }
+            // Construct ItemCategory Table
+            else if (elemName == "Category") {
+                org.w3c.dom.NodeList elemChild = nlist.item(i).getChildNodes();
+
+                if (elemChild.getLength() != 0) {
+                    categoryList.add(elemChild.item(0).getNodeValue());
+                }
+            }
+            // Construct the ItemLocation Table
+            else if (elemName == "Location") {
+                org.w3c.dom.NodeList elemChild = nlist.item(i).getChildNodes();
+
+                if (elemChild.getLength() != 0) {
+
+                }
+            }
+
         }
 
+        /* PRINT OUT Item.dat
         System.out.println(itemMap.get("ItemID") + ", " + 
                            itemMap.get("Name") + ", " +
                            //itemMap.get("Description") + ", " +
@@ -261,6 +287,12 @@ class MyParser {
                            itemMap.get("Currently") + ", " +
                            itemMap.get("Country") + ", " +
                            itemMap.get("Buy_Price"));
+        */
+
+        /* PRINT OUT ItemCategory.dat
+        for (int i = 0; i < categoryList.size(); i++) 
+            System.out.println(itemMap.get("ItemID") + ", " + categoryList.get(i));
+        */
 
     }
     
@@ -272,7 +304,7 @@ class MyParser {
 
         /*
         try {
-            System.setOut(new PrintStream(new File("itemTest.txt")));
+            System.setOut(new PrintStream(new File("categoryTest.dat")));
         } catch (Exception e) {
              e.printStackTrace();
         }
