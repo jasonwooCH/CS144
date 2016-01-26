@@ -1,0 +1,501 @@
+Successfully parsed - /home/cs144/ebay-data/items-0.xml
+1043374545, christopher radko | fritz n_ frosty sledding, $30.00, Dec-03-01 18:10:40, Dec-13-01 18:10:40, 0, $30.00, USA, null
+1043397459, PM BOY AND GIRL EXCLUSIVE EVENT PIECE LE, $99.99, Dec-03-01 18:38:23, Dec-13-01 18:38:23, 0, $99.99, USA, null
+1043402767, Precious Moments Girl Stove Mini Tea Set, $4.00, Dec-03-01 18:44:54, Dec-13-01 18:44:54, 1, $4.00, USA, null
+1043402785, Beatrix Potter Tailor of Gloucester Shakers, $3.50, Dec-03-01 18:44:55, Dec-13-01 18:44:55, 0, $3.50, USA, null
+1043495702, Precious Moments Fig-ANGEL OF MERCY- NURSE, $9.99, Dec-03-01 20:40:07, Dec-13-01 20:40:07, 6, $28.00, USA, null
+1043506302, DREAMSICLES suncatcher "LOVE LETTERS" new/nr, $6.00, Dec-03-01 20:59:45, Dec-13-01 20:59:45, 0, $6.00, USA, null
+1043562035, Town Crier CD102, $15.00, Dec-04-01 03:09:56, Dec-14-01 03:09:56, 0, $15.00, USA, null
+1043565691, Hertz Corporation Bond Certificate 1970's, $24.95, Dec-04-01 04:02:04, Dec-14-01 04:02:04, 0, $24.95, USA, null
+1043608482, Hallmark TIN Mail Truck Series, $7.95, Dec-04-01 08:10:20, Dec-14-01 08:10:20, 0, $7.95, USA, $11.17
+1043650580, Authentic Avon Quartz Silver/Gold Watch NIB, $24.99, Dec-04-01 10:30:55, Dec-14-01 10:30:55, 0, $24.99, USA, null
+1043747228, HANDBLOWN, ETCHED GLASS BRANDY SNIFTER, $19.95, Dec-04-01 14:29:34, Dec-14-01 14:29:34, 0, $19.95, USA, null
+1043749860, CGC 9.0 80 PAGE GIANT #8 SECRET ORIGINS VF/NM, $0.99, Dec-04-01 14:36:30, Dec-14-01 14:36:30, 12, $197.50, USA, null
+1043817906, NEVADA ghost town bottle digging book, 1961, $6.00, Dec-04-01 16:56:27, Dec-14-01 16:56:27, 1, $6.00, USA, null
+1043899828, PRECIOUS MOMENTS 15 HAPPY YEARS A TWEET BIRDS, $19.90, Dec-04-01 18:35:48, Dec-14-01 18:35:48, 1, $19.90, USA, null
+1043930362, ~~~50~~~8.5x14.5 BUBBLE MAILERS #3~~BUY NOW!!, $11.99, Dec-04-01 19:04:26, Dec-14-01 17:28:51, 1, $11.99, USA, null
+1043937480, ENESCO MARY'S MOO MOOS COW COUPLE W BABY, $9.98, Dec-04-01 19:11:42, Dec-14-01 19:11:42, 0, $9.98, USA, null
+1043987329, Fantastic Four #79 NR paypal VG, $9.99, Dec-04-01 20:03:58, Dec-14-01 20:03:58, 0, $9.99, USA, null
+1044027229, 1955 Churchill Queen Elizabath Nehru photo, $9.99, Dec-04-01 21:00:05, Dec-14-01 21:00:05, 1, $9.99, USA, $51.72
+1044042244, ROY ROGERS COMICS # 76 1954 "10 Cents", $14.99, Dec-04-01 21:31:58, Dec-14-01 21:31:58, 8, $47.99, USA, null
+1044078197, Set of 6 glass coasters w/characters, $6.99, Dec-05-01 00:09:14, Dec-15-01 00:09:14, 1, $6.99, USA, null
+1044100897, BATMAN no 58 from 1950. Rare, $60.00, Dec-05-01 04:47:05, Dec-15-01 04:47:05, 0, $60.00, USA, null
+1044104207, Classics Illustrated, No.162, 1961, (O), F/F-, $17.50, Dec-05-01 05:15:30, Dec-15-01 05:15:30, 0, $17.50, USA, null
+1044107651, Vintage Anchor Hocking Salt & Pepper Shakers, $3.00, Dec-05-01 05:35:50, Dec-15-01 05:35:50, 5, $14.39, USA, null
+1044123448, Avon Church Mouse Bride and a Groom figurine, $9.00, Dec-05-01 06:59:33, Dec-15-01 06:59:33, 0, $9.00, USA, null
+1044154993, 1970's Large Plastic Santa Cookie Jar, $9.00, Dec-05-01 09:01:01, Dec-15-01 09:01:01, 0, $9.00, USA, null
+1044160600, Vintage American Family Scale Kitchen Scale, $5.50, Dec-05-01 09:19:09, Dec-15-01 09:19:09, 1, $5.50, USA, null
+1044214000, Lot of Eight Franklin Mint Plate Holders - NR, $10.00, Dec-05-01 11:41:12, Dec-15-01 11:41:12, 1, $10.00, USA, null
+1044269494, HALLMARK Keepsake Ornament 1990 Brass Bouquet, $3.50, Dec-05-01 13:50:27, Dec-15-01 13:50:27, 0, $3.50, USA, null
+1044271868, Julie Andrews THE SOUND OF MUSIC 1st Edition, $9.99, Dec-05-01 13:55:53, Dec-15-01 13:55:53, 0, $9.99, USA, null
+1044279832, Eames Era Molded TEAK Plywood ICE BUCKET, $29.99, Dec-05-01 14:13:37, Dec-15-01 14:13:37, 1, $29.99, USA, null
+1044285284, Ceramic Dad Mug - NIB Reasonably Priced!!, $3.50, Dec-05-01 14:23:20, Dec-15-01 14:23:20, 0, $3.50, USA, null
+1044297318, 1977 Avon California Perfume Anniversary Talc, $2.00, Dec-05-01 14:53:26, Dec-15-01 14:53:26, 0, $2.00, USA, null
+1044300051, FIRE KING CREAMER & SUGAR BOWL RAINBOW COLORS, $1.00, Dec-05-01 15:02:54, Dec-15-01 15:02:54, 2, $1.25, USA, null
+1044334640, Martin Luther's Christmas Book Woodcuts, $5.00, Dec-05-01 16:23:34, Dec-15-01 16:23:34, 0, $5.00, USA, null
+1044348163, famous monsters #41.nov,1966.almost perfect !, $32.50, Dec-05-01 16:48:03, Dec-15-01 16:48:03, 1, $32.50, USA, null
+1044361617, Ultimate Spider-Man 1-7! TPB. MINT!, $14.95, Dec-05-01 17:10:40, Dec-15-01 17:10:40, 2, $41.00, USA, null
+1044363196, ANRI Ferrandiz Ornament SET of FOUR MINT!, $19.99, Dec-05-01 17:13:54, Dec-15-01 17:13:54, 6, $39.00, USA, null
+1044367519, CGC 9.2 NM- MIGHTY HEROES #4, W/ MIGHTY MOUSE, $115.00, Dec-05-01 17:19:55, Dec-15-01 17:19:55, 0, $115.00, USA, null
+1044387921, ANTIQUE CLOCK CLOCKS*GILDED BRONZE CARTIER, $795.00, Dec-05-01 17:51:26, Dec-15-01 17:51:26, 1, $795.00, USA, null
+1044389855, CHRISTOPHER RADKO Trim A Tree O PIN 2 for1!!!, $4.99, Dec-05-01 17:54:27, Dec-15-01 17:54:27, 1, $4.99, USA, null
+1044392363, DISNEY PINOCCHIO COOKIE JAR - NEW- MIB, $33.90, Dec-05-01 17:58:13, Dec-15-01 17:58:13, 0, $33.90, USA, $126.32
+1044407002, LLADRO #7644: INNOCENCE in BLOOM (mint in box, $199.99, Dec-05-01 18:14:38, Dec-15-01 18:14:38, 0, $199.99, USA, null
+1044412792, 18 Old pt fruit jars, glass lids&wire closure, $1.00, Dec-05-01 18:21:35, Dec-15-01 18:21:35, 7, $15.50, USA, $34.29
+1044417566, unread Wolverine miniseries #1-3, $13.00, Dec-05-01 18:31:00, Dec-15-01 18:31:00, 1, $13.00, USA, null
+1044429906, 1967 March Boris Karloff #17 March Gold Key, $3.05, Dec-05-01 18:43:41, Dec-15-01 18:43:41, 0, $3.05, USA, null
+1044448350, FREARM #1 MALIBU COMICS COMIC BOOK NR, $1.50, Dec-05-01 19:02:12, Dec-15-01 19:02:12, 0, $1.50, USA, null
+1044458000, department 56 ceramic santa claus, $24.00, Dec-05-01 19:10:12, Dec-15-01 19:10:12, 0, $24.00, USA, null
+1044517180, Buick street sign,Great gift idea!, $9.95, Dec-05-01 20:19:42, Dec-10-01 20:19:42, 0, $9.95, USA, $20.97
+1044520426, CIRCUS COPPER COOKIE CUTTER MINT SET, $9.99, Dec-05-01 20:25:46, Dec-15-01 20:25:46, 7, $36.00, USA, $97.01
+1044521948, 1981 Hallmark Family Tree Ornament - MINT, $6.99, Dec-05-01 20:31:00, Dec-15-01 20:31:00, 0, $6.99, USA, null
+1044527090, 1993 Hallmark Cool Santa (Coca Cola) - Club, $6.99, Dec-05-01 20:36:49, Dec-15-01 20:36:49, 0, $6.99, USA, null
+1044553439, William R. Hearst; Letter & Photo From Lady!, $15.00, Dec-05-01 21:32:20, Dec-15-01 21:32:20, 0, $15.00, USA, null
+1044575304, Kim Anderson's pretty as a picture MUSICAL, $34.50, Dec-05-01 23:11:28, Dec-15-01 23:11:28, 1, $34.50, USA, null
+1044583004, Old Wooden Corkscrew #35, $4.00, Dec-06-01 19:19:32, Dec-16-01 19:19:32, 0, $4.00, USA, null
+1044589232, 1950s CHEESE/FOOD GRINDER [GLASS BODY] nr, $0.99, Dec-06-01 01:38:26, Dec-16-01 01:38:26, 0, $0.99, USA, $1.21
+1044589406, 1950's-60's FLOUR SIFTER by WILLOW, $4.99, Dec-06-01 01:41:38, Dec-16-01 01:41:38, 1, $4.99, Australia, null
+1044638123, X-MEN #164.1983.FIRST APP.BINARY! NEAR MINT +, $8.50, Dec-06-01 07:52:10, Dec-16-01 07:52:10, 0, $8.50, USA, null
+1044638749, Original Star Wars Painted artwork, 1ofa kind, $150.00, Dec-06-01 07:54:39, Dec-16-01 07:54:39, 8, $308.03, USA, null
+1044650862, LOEWS TOM&JERRY lot of *6* old cookie cutters, $9.00, Dec-06-01 08:35:59, Dec-16-01 08:35:59, 0, $9.00, USA, null
+1044652547, DESTROYER DUCK #1, $7.00, Dec-06-01 08:41:18, Dec-16-01 08:41:18, 0, $7.00, Canada, null
+1044670345, Harmony Garden Sunflower II, $5.00, Dec-06-01 09:41:46, Dec-16-01 09:41:46, 2, $10.50, USA, null
+1044677094, Avon-Sunny Time Convertible Fanny Pack, $2.75, Dec-06-01 09:59:27, Dec-13-01 09:59:27, 0, $2.75, USA, null
+1044682407, Dan Dare Deluxe Edition Vol 10 New HB 1st Ed, $9.00, Dec-06-01 10:14:25, Dec-16-01 10:14:25, 4, $26.00, United Kingdom, null
+1044688877, BROWN & BIGELOW SALEMAN SAMPLE 1922 CALENDER, $5.00, Dec-06-01 10:30:44, Dec-13-01 10:30:44, 0, $5.00, USA, null
+1044689408, PRECIOUS MOMENTS~HAPPY BIRTHDAY CUPCAKE BOX, $11.60, Dec-06-01 10:31:45, Dec-16-01 10:31:45, 0, $11.60, USA, null
+1044698086, AVENGERS' QUASAR SERIES--ISSUES 1-60, $24.99, Dec-06-01 10:53:09, Dec-16-01 10:53:09, 0, $24.99, USA, null
+1044704534, 10 Issues 2000AD #'s 591-600 Judge Dredd NM, $6.00, Dec-06-01 11:08:18, Dec-16-01 11:08:18, 0, $6.00, United Kingdom, null
+1044707198, Dept. 56 Green Grocer Dickens Village, $3.00, Dec-06-01 11:16:43, Dec-13-01 11:16:43, 22, $61.10, USA, null
+1044709075, Alpine Village Polka Fest, $15.00, Dec-06-01 11:19:45, Dec-16-01 11:19:45, 0, $15.00, USA, null
+1044725095, David Winter Christmas in Scotlan & Hogmay 88, $99.99, Dec-06-01 12:01:05, Dec-13-01 12:01:05, 0, $99.99, USA, null
+1044730246, Dept 56 Snow Village Jacks Corner Barber Shop, $45.00, Dec-06-01 12:14:05, Dec-13-01 12:14:05, 1, $45.00, USA, null
+1044731826, NORTH POLE SANTA S BELL REPAIR, $15.00, Dec-06-01 12:17:44, Dec-13-01 12:17:44, 3, $16.75, USA, null
+1044753275, Avon 1987 Christmas Bell NIB and MORE, $7.00, Dec-06-01 13:09:07, Dec-13-01 13:09:07, 0, $7.00, USA, null
+1044760560, NORMAN ROCKWELL PLATE~MIB~FAMILY'S MEASURE, $15.00, Dec-06-01 13:26:10, Dec-16-01 13:26:10, 0, $15.00, USA, null
+1044766839, Duncan Royale Figure of Fran Holda !!!!!!!!!!, $185.00, Dec-06-01 13:42:47, Dec-16-01 13:42:47, 0, $185.00, USA, null
+1044769132, BRAND NEW 2001 GREEN MARGUERITE, $19.00, Dec-06-01 13:49:00, Dec-16-01 13:49:00, 0, $19.00, USA, null
+1044771169, BRADFORD EXCHANGE MIRACLE OF LIFE PLATE 1995, $12.95, Dec-06-01 13:53:56, Dec-13-01 13:53:56, 1, $12.95, USA, null
+1044772419, 1876 Series Cape Cod Sugar Bowl, $9.95, Dec-06-01 13:57:38, Dec-13-01 13:57:38, 0, $9.95, USA, null
+1044774869, DBL QUEEN PINK DAMASK BEDSPREAD WITH FRINGE, $7.50, Dec-06-01 14:03:03, Dec-16-01 14:03:03, 1, $7.50, Canada, null
+1044780959, GREEN MOUNTAIN: MISTER MIRACLE #7 VGF KIRBY, $1.00, Dec-06-01 14:17:33, Dec-16-01 14:17:33, 0, $1.00, USA, null
+1044789966, Gallon milk bottle with plastic handle, $7.95, Dec-06-01 14:39:39, Dec-16-01 14:39:39, 0, $7.95, USA, null
+1044790001, Cherished Teddies Jerry Ready To Splash NEW, $9.50, Dec-06-01 14:39:49, Dec-13-01 14:39:49, 0, $9.50, USA, null
+1044790439, 15' PIZZA BAKING STONE +++++, $8.95, Dec-06-01 14:40:52, Dec-16-01 14:40:52, 2, $9.60, USA, null
+1044797607, MIB Fabulous SAKURA BARN Cookie Jar Oneida NR, $24.99, Dec-06-01 14:58:28, Dec-16-01 14:58:28, 0, $24.99, USA, $96.56
+1044804097, "Christmas Cook-Out" 2nd In A Nutshell series, $4.50, Dec-06-01 15:13:39, Dec-16-01 15:13:39, 0, $4.50, USA, null
+1044808556, 417785 Christmas Girl - Limited Edition! NR!, $9.99, Dec-06-01 15:24:56, Dec-16-01 15:24:56, 1, $9.99, USA, null
+1044809898, PRECIOUS MOMENTS MUSICAL CHRISTMAS HOUSE N/R!, $8.99, Dec-06-01 15:26:31, Dec-13-01 15:26:31, 1, $8.99, USA, null
+1044813117, Beautiful Vintage Wallpaper, LEAF/ STRIPE, $9.99, Dec-06-01 15:33:24, Dec-13-01 15:33:24, 0, $9.99, USA, null
+1044819242, 1965 Jerry Lewis #90 October DC Comic, $3.05, Dec-06-01 15:46:35, Dec-16-01 15:46:35, 0, $3.05, USA, null
+1044820175, Philadelphia 76ers JERRY STACKHOUSE Jersey Bo, $1.00, Dec-06-01 15:48:31, Dec-13-01 15:48:31, 1, $1.00, USA, null
+1044831955, Pair Vintage Drapes, Floral Faille Roses!!!, $22.00, Dec-06-01 16:13:07, Dec-16-01 16:13:07, 2, $46.00, USA, null
+1044843918, EMMETT KELLY JR CLEANING UP DEAF FIGURINE, $14.97, Dec-06-01 16:34:57, Dec-13-01 16:34:57, 0, $14.97, USA, null
+1044846301, BRADFORD EXCHANGE AN ANGEL'S AFFECTION PLATE, $14.99, Dec-06-01 16:39:21, Dec-16-01 16:39:21, 0, $14.99, USA, $70.69
+1044846316, Dickens Village "Cottage of Bob Cratchit, $9.99, Dec-06-01 16:39:05, Dec-13-01 16:39:05, 10, $41.00, USA, $144.44
+1044847509, Swarovski 1997 Christmas Ornament, $10.00, Dec-06-01 16:41:14, Dec-16-01 16:41:14, 7, $59.00, USA, null
+1044848909, Wooden Architecture in the Berkshires 1922, $4.00, Dec-06-01 16:43:35, Dec-13-01 16:43:35, 0, $4.00, USA, $23.65
+1044849628, Awesome Radko Batgirl Ornament- NR!!!, $7.50, Dec-06-01 16:44:57, Dec-13-01 16:44:57, 1, $7.50, USA, null
+1044850586, CREEPY #2 DAVIS FRAZETTA WILLIAMSON more! FN, $14.95, Dec-06-01 16:46:53, Dec-16-01 16:46:53, 0, $14.95, Canada, null
+1044853098, DUNCAN ROYALE-18"-ST. NICHOLAS SANTA-RARE-MIB, $150.00, Dec-06-01 16:51:04, Dec-13-01 16:51:04, 2, $154.01, USA, null
+1044855059, thor 128 - 140 jack kirby art all VGFN BV$135, $39.99, Dec-06-01 16:54:48, Dec-16-01 16:54:48, 0, $39.99, USA, null
+1044855531, THE RINGMASTER - CIRCUS SERIES NR CC 50%OFF, $8.95, Dec-06-01 16:55:13, Dec-13-01 16:55:13, 0, $8.95, USA, null
+1044861783, Ace Willie Beginner Magic Book Grab #8, $0.25, Dec-06-01 17:03:30, Dec-16-01 17:03:30, 4, $3.25, USA, null
+1044863124, Our Friendship Blessed Bag Precious Moment, $2.50, Dec-06-01 17:05:23, Dec-13-01 17:05:23, 2, $2.75, USA, null
+1044863839, Radko ~~CHILLIN DELIVERIES ~~REDUCED, $34.00, Dec-06-01 17:06:03, Dec-13-01 17:06:03, 0, $34.00, USA, null
+1044864736, Wolverine Mini Statue by Bowen Designs, $1.00, Dec-06-01 17:07:38, Dec-16-01 17:07:38, 5, $15.50, USA, $42.88
+1044864943, Radko Heritage Santa, $20.00, Dec-06-01 17:08:53, Dec-13-01 17:08:53, 0, $20.00, USA, null
+1044880223, Dept. 56 Farmer's Market N Eng Village NIB, $19.99, Dec-06-01 17:30:37, Dec-13-01 17:30:37, 3, $26.00, USA, null
+1044880929, MARVEL COLLECTORS ITEM CLASSICS 15 NM 9.4 CGC, $9.99, Dec-06-01 17:31:10, Dec-16-01 17:31:10, 6, $22.26, USA, null
+1044884674, Star Wars: Dark Lords of the Sith (Full Run!), $5.99, Dec-06-01 17:36:18, Dec-16-01 17:36:18, 1, $5.99, USA, null
+1044884849, PM**Catelog pc**My Love Will Keep You Warm, $18.99, Dec-06-01 17:35:51, Dec-13-01 17:35:51, 0, $18.99, USA, null
+1044896146, Snowbabies Make A Wish, MIB, NR, $22.50, Dec-06-01 17:50:53, Dec-13-01 17:50:53, 0, $22.50, USA, null
+1044896485, ROYAL DOULTON IMPERIAL PALACE CHEN CHI, $14.99, Dec-06-01 17:50:54, Dec-16-01 17:50:54, 0, $14.99, USA, null
+1044897718, "The Lovers" Collector Plate by Lee Bogle, $20.00, Dec-06-01 17:52:58, Dec-13-01 17:52:58, 3, $21.50, USA, null
+1044908245, character shaving mug BLACK MAN German porcel, $24.99, Dec-06-01 18:06:06, Dec-16-01 18:06:06, 1, $24.99, USA, null
+1044910123, WEIRD WESTERN TALES #14 CGC VF 8.0 Toth art, $30.00, Dec-06-01 18:07:13, Dec-16-01 18:07:13, 0, $30.00, USA, null
+1044913099, NEW Dragon Magazine #287 TSR AD&D D&D RPG 3E, $4.95, Dec-06-01 18:10:42, Dec-16-01 18:10:42, 4, $7.00, USA, null
+1044914830, X-MEN GRAPHIC NOVEL.GOD LOVES-MAN KILLS NM, $8.50, Dec-06-01 18:12:58, Dec-16-01 18:12:58, 0, $8.50, USA, null
+1044917206, New Michigan State xxl, $2.99, Dec-06-01 18:15:11, Dec-16-01 18:15:11, 1, $2.99, USA, null
+1044923263, Oliver Twist retired 1993, $14.00, Dec-06-01 18:21:40, Dec-13-01 18:21:40, 0, $14.00, USA, null
+1044938750, Fabulous Art Deco Chrome w/bakelite CoffeePot, $4.99, Dec-06-01 18:36:50, Dec-16-01 18:36:50, 3, $15.83, USA, null
+1044942087, MUSICAL 3-D CHRISTMAS ANGEL PLATE #4, $15.99, Dec-06-01 18:40:35, Dec-16-01 18:40:35, 0, $15.99, USA, $53.60
+1044942715, Seattle Skyline Limoge Style Trinket Box, $8.99, Dec-06-01 18:40:57, Dec-16-01 18:40:57, 0, $8.99, USA, null
+1044943868, DEPT 56 ALPINE VILLAGE GRISTMILL, $23.00, Dec-06-01 18:42:19, Dec-13-01 18:42:19, 0, $23.00, USA, null
+1044944674, Retired 98 Juvenile Diabetes Charity Orn, $9.99, Dec-06-01 18:44:22, Dec-13-01 18:44:22, 0, $9.99, USA, null
+1044948773, PRECIOUS MOMENTS MOUSEPAD, $5.00, Dec-06-01 18:47:14, Dec-13-01 18:47:14, 0, $5.00, USA, null
+1044953624, LOIS LANE #134 VF/NM SUPER LOIS, KANDOR, $6.50, Dec-06-01 18:52:57, Dec-16-01 18:52:57, 0, $6.50, USA, null
+1044954717, Nice old Quilt Hand Stitched Hand Quilted, $9.99, Dec-06-01 19:01:12, Dec-16-01 19:01:12, 8, $71.00, USA, null
+1044955341, Degrazia _86 Flower Girl Goebel Ornament NR, $9.99, Dec-06-01 18:55:21, Dec-16-01 18:55:21, 2, $12.50, USA, null
+1044968142, CINDERELLA 1984 CANADA GLASS (COKE-MCDONALDS), $5.95, Dec-06-01 19:08:39, Dec-16-01 19:08:39, 0, $5.95, Canada, null
+1044968489, FANTASTIC OLD 10'X13'PERSIAN ISFAHAN RUG-LLR!, $150.00, Dec-06-01 19:08:13, Dec-16-01 19:08:13, 1, $150.00, USA, null
+1044970243, Art Deco Farber Bros Krome Kraft-2 Dishes, $18.00, Dec-06-01 19:09:57, Dec-16-01 19:09:57, 0, $18.00, USA, null
+1044982114, All-Flash #23 DC June/1946 Glossy! NR!, $124.95, Dec-06-01 19:20:27, Dec-16-01 19:20:27, 0, $124.95, USA, null
+1044988356, Precious Moments Sugar Town Bus Stop, $6.00, Dec-06-01 19:26:40, Dec-13-01 19:26:40, 0, $6.00, USA, null
+1044993053, 1988 Minature Beaded Garland Gold NRFB, $4.95, Dec-06-01 19:31:38, Dec-16-01 19:31:38, 1, $4.95, USA, null
+1044995614, HANDCRAFTED PATCHWORK~SAHARA STAR QUILT~F/Q, $29.99, Dec-06-01 19:33:45, Dec-16-01 19:33:45, 0, $29.99, USA, $116.26
+1044996076, MEMORIES OF YESTERDAY HOLD IT YOU'RE SWELL, $19.99, Dec-06-01 19:34:15, Dec-13-01 19:34:15, 0, $19.99, USA, null
+1044999719, INDEPENDENDENCE HALL XMAS IN CITY DEPT 56, $69.99, Dec-06-01 19:37:34, Dec-13-01 19:37:34, 0, $69.99, USA, null
+1045001090, **NEW** 12-A Dozen Precious Moments FAN PULLS, $9.95, Dec-06-01 19:38:51, Dec-13-01 19:38:51, 0, $9.95, USA, null
+1045003409, HALLMARK COOKIE CUTTER RED SNOWMAN, $1.99, Dec-06-01 19:41:43, Dec-16-01 19:41:43, 1, $1.99, USA, null
+1045005815, Bowen Marvel Spiderman Green Goblin Statue, $139.95, Dec-06-01 19:44:38, Dec-16-01 19:44:38, 0, $139.95, USA, null
+1045013883, ARCHIE COMICS JUGHEADS TIME POLICE LOT, $5.00, Dec-06-01 19:56:51, Dec-16-01 19:56:51, 0, $5.00, USA, null
+1045014297, Cherished Teddies Angela,3rd angel in series, $18.50, Dec-06-01 19:55:25, Dec-13-01 19:55:25, 0, $18.50, USA, null
+1045014900, Anchor Hocking Fire King Blue Mosaic Snack Se, $20.00, Dec-06-01 19:55:43, Dec-16-01 19:55:43, 6, $36.00, USA, null
+1045017350, MINNESOTA VIKINGS NIKE KNIT WINTER HAT *NEW*, $4.00, Dec-06-01 19:58:04, Dec-13-01 19:58:04, 1, $4.00, USA, $20.27
+1045020620, NP Glacier Gazette, retired, MIB, NR, $36.00, Dec-06-01 20:02:54, Dec-13-01 20:02:54, 0, $36.00, USA, null
+1045021816, 5 DENNIS THE MENACE MARVEL COMICS, $3.00, Dec-06-01 20:02:19, Dec-16-01 20:02:19, 1, $3.00, USA, null
+1045023344, Precious Moments Tree Topper 1991 MIB, $8.00, Dec-06-01 20:03:46, Dec-13-01 20:03:46, 0, $8.00, USA, null
+1045023664, Stone Print Play Billboard - Robinson Crusoe, $179.00, Dec-06-01 20:04:11, Dec-13-01 20:04:11, 0, $179.00, USA, null
+1045028393, 2000 BUSY BEE SHOPPER - EXTREMELY CUTE - LQQK, $7.95, Dec-06-01 20:09:51, Dec-13-01 20:09:51, 0, $7.95, USA, null
+1045028764, 1994 looney tunes hallmark ornaments (5), $9.99, Dec-06-01 20:10:50, Dec-13-01 20:10:50, 11, $42.00, USA, null
+1045032333, DEPT 56 HERITAGE SANTA MRS CLAUS NR MIB, $9.99, Dec-06-01 20:15:29, Dec-13-01 20:15:29, 0, $9.99, USA, null
+1045033048, Enesco 1990 HERE'S LOOKING AT YOU - Mouse/cam, $20.00, Dec-06-01 20:16:27, Dec-13-01 20:16:27, 0, $20.00, USA, null
+1045034546, Lefton Colonial Village Church #06351, $9.99, Dec-06-01 20:17:24, Dec-16-01 20:17:24, 0, $9.99, USA, null
+1045034667, SUPER MAN #1 COMIC,HB BOOK,STATUE,Fine!NR!, $40.00, Dec-06-01 20:17:30, Dec-16-01 20:17:30, 0, $40.00, USA, $200.78
+1045036517, Hallmark 1985 Kitty Mischief Ornament, $7.99, Dec-06-01 20:19:29, Dec-13-01 20:19:29, 0, $7.99, USA, null
+1045041605, NE Vill. BLUE STAR ICE CO. ret Estate Piece, $1.00, Dec-06-01 20:28:03, Dec-13-01 20:28:03, 10, $25.00, USA, null
+1045048091, Armani DISNEY MICKEY SORCERER 30%off NiB NR, $459.00, Dec-06-01 20:33:44, Dec-13-01 20:33:44, 0, $459.00, USA, null
+1045048202, Armani DISNEY GOOFY! New in Box! 30%off NR, $245.00, Dec-06-01 20:33:50, Dec-13-01 20:33:50, 0, $245.00, USA, null
+1045080370, Large Rare Antique Stoneware Jug SHABBY CHIC, $29.95, Dec-06-01 22:38:45, Dec-16-01 22:38:45, 0, $29.95, USA, null
+1045080937, "ONE TEAR AT A TIME" Video - Brand New!!, $24.95, Dec-06-01 22:41:08, Dec-16-01 22:41:08, 0, $24.95, USA, null
+1045090378, HARMONY KINGDOM: Y2HK MILLENNIUM#TJSEY2K-RTD., $128.50, Dec-06-01 23:33:18, Dec-16-01 23:33:18, 0, $128.50, USA, null
+1045100798, Precious Moments Caring 1994 Members Only, $19.00, Dec-07-01 03:26:52, Dec-17-01 03:26:52, 0, $19.00, USA, null
+1045102327, MCCOY DAISY COW-- FREE S/H/I, $79.99, Dec-07-01 03:43:33, Dec-17-01 03:43:33, 0, $79.99, USA, null
+1045104966, 1988 1989 Hallmark Polar Bowler AWESOME, $12.00, Dec-07-01 04:03:14, Dec-17-01 04:03:14, 0, $12.00, USA, $59.27
+1045107350, Firefighter Helmet USA Flag Sticker, $15.00, Dec-07-01 04:24:07, Dec-14-01 04:24:07, 1, $15.00, USA, null
+1045110355, Precious Moments Sugar Town Train Station Lit, $19.95, Dec-07-01 04:50:01, Dec-14-01 04:50:01, 1, $19.95, USA, null
+1045111305, D-56 DEPT 56 GREAT EXPECTATIONS 'SATIS MANOR', $55.99, Dec-07-01 04:58:33, Dec-14-01 04:58:33, 1, $55.99, USA, null
+1045114383, Franklin Mint 1988 Carousel Elephant, $18.99, Dec-07-01 05:24:43, Dec-14-01 05:24:43, 0, $18.99, USA, null
+1045122521, CITY - THE DOCTORS OFFICE - 1991- RET. 1994, $5.00, Dec-07-01 06:21:04, Dec-14-01 06:21:04, 0, $5.00, USA, null
+1045125403, "OVERNIGHT DELIVERY" GOLD* Snowbabies*Dept 56, $1.00, Dec-07-01 06:33:31, Dec-14-01 06:33:31, 6, $7.02, USA, null
+1045125754, Friendship Tree 91 Comboship1213 QLX7169, $10.00, Dec-07-01 06:34:38, Dec-14-01 06:34:38, 0, $10.00, USA, null
+1045128766, Department 56 Village Accessories Signs!, $9.95, Dec-07-01 06:50:05, Dec-14-01 06:50:05, 0, $9.95, USA, null
+1045130515, PM Wedding Bible Holder "To Have And To hold", $9.95, Dec-07-01 06:59:25, Dec-14-01 06:59:25, 0, $9.95, USA, $57.06
+1045138555, CHARMING TAILS - BINKEY'S SAND ANGEL- MIB, $10.99, Dec-07-01 07:33:38, Dec-14-01 07:33:38, 0, $10.99, Canada, null
+1045139541, BING & GRONDAHL CHRISTMAS IN AMERICA PLATE 91, $5.00, Dec-07-01 07:37:50, Dec-14-01 07:37:50, 1, $5.00, USA, null
+1045143944, 1982 P.M.- LOVE ONE ANOTHER - HOURGLASS MARK, $17.50, Dec-07-01 07:56:13, Dec-14-01 07:56:13, 0, $17.50, USA, null
+1045147623, NATIONAL FIREWORKS LOT BOSTON MA. 1933, $9.99, Dec-07-01 08:11:30, Dec-14-01 08:11:30, 0, $9.99, USA, null
+1045154238, Cameo Incoley The Isle of Circes, $9.99, Dec-07-01 08:36:52, Dec-14-01 08:36:52, 0, $9.99, USA, null
+1045157743, (7) Old Antique Golf Clubs @@NO RESERVE@@, $1.00, Dec-07-01 08:52:56, Dec-17-01 08:52:56, 17, $122.50, USA, null
+1045164703, D56 SV Village Town Hall NEW SRP=$96, $71.99, Dec-07-01 09:13:34, Dec-14-01 09:13:34, 0, $71.99, USA, null
+1045165699, Avon Angel Porcelain Thimble 1999, $2.00, Dec-07-01 09:17:15, Dec-14-01 09:17:15, 0, $2.00, USA, null
+1045170563, Avon-Angel Song/Mandolin w/Unforgettable, $4.75, Dec-07-01 09:34:39, Dec-14-01 09:34:39, 0, $4.75, USA, null
+1045175503, Enesco Wizard of Oz The Cowardly Lion NEW, $8.00, Dec-07-01 09:51:09, Dec-14-01 09:51:09, 0, $8.00, USA, null
+1045178271, R2D2 Pepsi Cooler, $75.00, Dec-07-01 09:59:10, Dec-17-01 09:59:10, 0, $75.00, USA, null
+1045180169, Lilyette Mini Lacy Bra Slip 36-37C, $8.00, Dec-07-01 10:06:26, Dec-17-01 10:06:26, 1, $8.00, USA, null
+1045180870, VERY NICE BRASS MATCH HOLDER BUCKET, $1.00, Dec-07-01 10:07:32, Dec-17-01 10:07:32, 0, $1.00, USA, $1.45
+1045181453, 50 Sterling STATE INGOTS Franklin Mint NO RES, $245.00, Dec-07-01 10:09:16, Dec-14-01 10:09:16, 1, $245.00, USA, null
+1045186593, Avon's Cape Cod Collection Vase brand new, $12.00, Dec-07-01 10:25:18, Dec-14-01 10:25:18, 1, $12.00, USA, null
+1045188109, Bessie Pease Gutmann FIRST STEP figurine, $9.00, Dec-07-01 10:30:10, Dec-14-01 10:30:10, 1, $9.00, USA, null
+1045188547, Dept.56 Santa's Workshop-Brand New!!!, $49.99, Dec-07-01 10:31:09, Dec-14-01 10:31:09, 14, $152.50, USA, null
+1045195481, Shall I Play For You, $5.00, Dec-07-01 10:55:08, Dec-14-01 10:55:08, 0, $5.00, USA, null
+1045196855, Harmony Kingdom ~ JINGLE BELL ROCK ~ Ed. 1, $9.95, Dec-07-01 10:58:28, Dec-17-01 10:58:28, 1, $9.95, USA, null
+1045212403, F.A.K.K. 2 JULIE STRAIN Action Figure Excl., $9.99, Dec-07-01 11:43:50, Dec-17-01 11:43:50, 0, $9.99, USA, $47.12
+1045218059, IRON-ON FUSIBLE PELLON INTERFACING! WHOLESALE, $1.99, Dec-07-01 12:00:14, Dec-17-01 12:00:14, 1, $1.99, USA, null
+1045218598, Mary Engelbreit Queen Sign, $9.99, Dec-07-01 12:01:36, Dec-14-01 12:01:36, 2, $10.49, USA, null
+1045221605, ANRI Ferrandiz rare matched set BAKER COUPLE, $325.00, Dec-07-01 12:09:34, Dec-14-01 12:09:34, 0, $325.00, USA, null
+1045224300, STOLICHNAYA RUSSIAN VODKA SHOT GLASS, $2.99, Dec-07-01 12:16:26, Dec-14-01 12:16:26, 1, $2.99, USA, null
+1045231642, YOUTH Detroit Red Wings Leather Jacket 10/12, $40.00, Dec-07-01 12:33:23, Dec-12-01 12:33:23, 1, $40.00, USA, null
+1045233300, NASCAR HALLMARK RICHARD PETTY STOCK CAR CHAMP, $9.99, Dec-07-01 12:37:21, Dec-14-01 12:37:21, 0, $9.99, USA, null
+1045233442, Carved Wood German Bottle Cork Wine Stopper, $12.00, Dec-07-01 12:37:57, Dec-14-01 12:37:57, 0, $12.00, USA, null
+1045234402, Collecting Software for Platinum Age Comics, $12.50, Dec-07-01 12:40:16, Dec-17-01 12:40:16, 0, $12.50, USA, null
+1045234819, 4 Kennedy & Mc Carthy Bumber Stickers !, $1.99, Dec-07-01 12:41:41, Dec-17-01 12:41:41, 1, $1.99, USA, null
+1045234876, DREAMSICLES ANGEL with POINSETTIA BASKET, $5.00, Dec-07-01 12:42:53, Dec-14-01 12:42:53, 1, $5.00, USA, $9.30
+1045237036, SNOWBUNNIES I'VE GOT A SUPRISE, $12.99, Dec-07-01 12:47:53, Dec-14-01 12:47:53, 0, $12.99, USA, null
+1045238762, French Shabby Chic metal shelf shelves tassle, $1.00, Dec-07-01 12:52:34, Dec-17-01 12:52:34, 1, $1.00, USA, null
+1045240995, Precious Moments Calendar Girl "December", $19.99, Dec-07-01 12:58:50, Dec-14-01 12:58:50, 0, $19.99, USA, null
+1045241431, NIKKI ALL GOD'S CHILDREN HALLMARK ORN 1997, $9.99, Dec-07-01 12:59:14, Dec-14-01 12:59:14, 0, $9.99, USA, null
+1045241545, DEPT 56 DICKENS A PARTRIDGE IN A PEAR TREE, $19.99, Dec-07-01 12:59:36, Dec-14-01 12:59:36, 0, $19.99, USA, null
+1045241826, VENOMtheMADNESS#1-3.MINT.FREE US SHIP'G.BONUS, $8.50, Dec-07-01 13:00:30, Dec-17-01 13:00:30, 0, $8.50, USA, null
+1045246078, GREEN MOUNTAIN: ASTONISHING TALES #19 FVF, $1.00, Dec-07-01 13:07:54, Dec-17-01 13:07:54, 0, $1.00, USA, $2.59
+1045246222, PAAP - "I Promise You An Ocean..." MIB NR!, $17.99, Dec-07-01 13:08:44, Dec-14-01 13:08:44, 0, $17.99, USA, null
+1045251618, Avon Volkwagon windjammer after shave, $5.00, Dec-07-01 13:21:04, Dec-14-01 13:21:04, 1, $5.00, USA, null
+1045254741, BROADWAY PROGRAM, $50.00, Dec-07-01 13:31:26, Dec-14-01 13:31:26, 0, $50.00, USA, $126.64
+1045258842, Bone china little girl with kittens in barrel, $9.99, Dec-07-01 13:38:20, Dec-17-01 13:38:20, 0, $9.99, USA, $13.63
+1045259468, First Christmas In New Home_Ornament "1999", $16.00, Dec-07-01 13:40:54, Dec-14-01 13:40:54, 0, $16.00, USA, null
+1045260173, PRECIOUS MOMENTS--JUST MARRIED MUSICAL BOX, $20.00, Dec-07-01 13:43:19, Dec-14-01 13:43:19, 0, $20.00, USA, null
+1045261977, Hummel figurine girl w/ Favorite pet MINT, $59.99, Dec-07-01 13:48:26, Dec-17-01 13:48:26, 0, $59.99, USA, null
+1045264614, Wooden Frame Rose Terra Cotta Tile Trivet, $3.99, Dec-07-01 13:56:24, Dec-17-01 13:56:24, 0, $3.99, USA, null
+1045266160, NICK FURY - AGENT OF SHIELD #38 - 41, $5.00, Dec-07-01 14:00:01, Dec-17-01 14:00:01, 0, $5.00, Canada, null
+1045266709, Bowen Designs Marvel Juggernaut Mini-bust, $32.95, Dec-07-01 14:01:11, Dec-17-01 14:01:11, 1, $32.95, USA, null
+1045268293, Brass Coaster With Victorian Penny, $4.00, Dec-07-01 14:06:45, Dec-17-01 14:06:45, 0, $4.00, United Kingdom, null
+1045269489, DEPT 56 ALPINE VILLAGE THE TOY PEDDLER retire, $19.99, Dec-07-01 14:10:12, Dec-14-01 14:10:12, 0, $19.99, USA, null
+1045272701, Star trek:ALL ORNAMENTS 92-2000, $275.00, Dec-07-01 14:18:33, Dec-14-01 14:18:33, 1, $275.00, USA, null
+1045274788, 7 1860s POWERS & WRIGHTMAN CHECKS- REVENUE, $2.99, Dec-07-01 14:26:51, Dec-14-01 14:26:51, 0, $2.99, USA, null
+1045275048, UNEXPECTED #133,1972,cgc,9.0,owtwp, $1.00, Dec-07-01 14:25:06, Dec-14-01 14:25:06, 3, $18.50, USA, null
+1045278747, DREAMSICLES SNUGGLE UP TO WINTER FREE SHIPPIN, $16.40, Dec-07-01 14:35:54, Dec-14-01 14:35:54, 0, $16.40, USA, null
+1045279551, Norman Rockwell 1979 Ornament, $3.00, Dec-07-01 14:38:46, Dec-14-01 14:38:46, 0, $3.00, USA, null
+1045280711, Weird Fantasy #1-22 Hardcover Volume, $25.00, Dec-07-01 14:41:43, Dec-14-01 14:41:43, 8, $60.00, USA, null
+1045282425, SILVER 1972 ROAD WINTER CHRISTMAS, $37.00, Dec-07-01 14:46:26, Dec-17-01 14:46:26, 0, $37.00, USA, null
+1045284904, SV Kids Love Hershey's!, $24.75, Dec-07-01 14:54:14, Dec-14-01 14:54:14, 0, $24.75, USA, null
+1045288166, Interesting *Vintage* Atomizer *OLD*, $7.95, Dec-07-01 15:04:23, Dec-14-01 15:04:23, 0, $7.95, USA, null
+1045291850, L@@K! Avon Gold Ring w Diamond Star, $4.99, Dec-07-01 15:13:49, Dec-14-01 15:13:49, 0, $4.99, USA, null
+1045298651, Hallmark 2001 Sulley,Mike, Boo Monster Inc., $9.99, Dec-07-01 15:32:01, Dec-14-01 15:32:01, 3, $13.49, USA, null
+1045299503, PRECIOUS MOMENTS-May Your Christmas Bang 2001, $30.00, Dec-07-01 15:34:11, Dec-14-01 15:34:11, 0, $30.00, USA, null
+1045299669, 11 OLD DOILIES, ONE PRICE, NR, $6.00, Dec-07-01 15:34:42, Dec-17-01 15:34:42, 0, $6.00, USA, null
+1045301128, Dept 56 Noel Ornament Girl Caroler, $4.99, Dec-07-01 15:38:24, Dec-17-01 15:38:24, 1, $4.99, USA, null
+1045301946, Dept 56 T. Wells Fruit & Spice Shop, $24.99, Dec-07-01 15:41:05, Dec-14-01 15:41:05, 0, $24.99, USA, null
+1045302047, HALLMARK CAROUSEL HORSE PROMO SET 6 PC, $25.00, Dec-07-01 15:41:14, Dec-14-01 15:41:14, 0, $25.00, USA, null
+1045302410, Homco 4 perfect Christmas pieces, $5.00, Dec-07-01 15:43:01, Dec-14-01 15:43:01, 0, $5.00, USA, null
+1045302453, LIMOGES HIGH HEEL SHOE & PERFUME ATOMIZER, $28.00, Dec-07-01 15:42:59, Dec-17-01 15:42:59, 0, $28.00, USA, null
+1045304791, JOSEF Original Valentine Trinket Box MIB, $8.99, Dec-07-01 15:49:18, Dec-14-01 15:49:18, 0, $8.99, USA, null
+1045307826, ~ TUPPERWARE ~ CHRISTMAS ~ COOKIE CUTTERS ~, $1.49, Dec-07-01 15:55:03, Dec-14-01 15:55:03, 1, $1.49, USA, null
+1045307931, 3 Precious Moments Collectibles. #32, $20.00, Dec-07-01 15:55:40, Dec-14-01 15:55:40, 0, $20.00, USA, null
+1045308478, Patsy Walker #46 (Golden Age, Atlas, Good), $4.25, Dec-07-01 15:57:02, Dec-14-01 15:57:02, 0, $4.25, USA, null
+1045310980, HALLMARK Peanuts "A SNOOPY CHRISTMAS" SET, $6.00, Dec-07-01 16:04:06, Dec-14-01 16:04:06, 3, $10.51, USA, null
+1045314191, Home Interior Homco Cat Figurine #1412 EC, $5.99, Dec-07-01 16:10:58, Dec-14-01 16:10:58, 0, $5.99, USA, null
+1045314314, SPACE PATROL TRADING CARD-SOLAR DISINTEGRATOR, $10.00, Dec-07-01 16:10:50, Dec-17-01 16:10:50, 0, $10.00, USA, null
+1045317455, Early Square Decanter - Open Pontil - Stopper, $5.00, Dec-07-01 16:17:50, Dec-14-01 16:17:50, 3, $7.00, USA, null
+1045321693, TRAVEL BAG~ LEATHER~ WITH ALOT OF POCKETS, $20.00, Dec-07-01 16:25:10, Dec-14-01 16:25:10, 0, $20.00, USA, $103.65
+1045321773, Texas A&M Aggies Lidded Ceramic Shot, $12.95, Dec-07-01 16:25:05, Dec-14-01 16:25:05, 0, $12.95, USA, null
+1045324904, FDNY NEW YORK CITY FIRE DEPT RESCUE 1 SHIRT S, $15.00, Dec-07-01 16:31:34, Dec-14-01 16:31:34, 0, $15.00, USA, null
+1045327231, Cat's Meow HISTORICAL MUSEUM PINE, $4.99, Dec-07-01 16:35:44, Dec-14-01 16:35:44, 0, $4.99, USA, null
+1045330340, New Thomas Kinkade Journal "End of a Perfect, $11.95, Dec-07-01 16:42:18, Dec-17-01 16:42:18, 0, $11.95, USA, null
+1045333202, 4 OLD METAL COOKIE CUTTERS/CHICKENS/CHICKS, $5.00, Dec-07-01 16:49:09, Dec-14-01 16:49:09, 0, $5.00, USA, null
+1045336733, 3- 1995 DREAMSICLES FIGURENES. NR PAYPAL, $9.99, Dec-07-01 16:57:10, Dec-14-01 16:57:10, 0, $9.99, USA, null
+1045341043, teenage mutant TURTLES 1983. GRAFIK NOVEL, $14.00, Dec-07-01 17:04:08, Dec-17-01 17:04:08, 0, $14.00, USA, null
+1045341232, Hallmark - BAITSHOP WITH BOAT - Pressed Tin, $14.50, Dec-07-01 17:04:57, Dec-14-01 17:04:57, 0, $14.50, USA, null
+1045341471, Frog Knife Rest Qty 1 (Pewter), $10.00, Dec-07-01 17:04:46, Dec-17-01 17:04:46, 0, $10.00, USA, null
+1045344452, Gold Digger #30- Fred Perry, Manga, Furry!, $1.00, Dec-07-01 17:11:00, Dec-14-01 17:11:00, 2, $1.25, USA, null
+1045345929, Vintage Metal Christmas Cookie Cutter(4), $4.50, Dec-07-01 17:13:51, Dec-14-01 17:13:51, 0, $4.50, USA, null
+1045346056, Vintage kitchen Lot, $8.00, Dec-07-01 17:14:03, Dec-17-01 17:14:03, 0, $8.00, USA, null
+1045346859, Estate sale find Diamond Willow Corkscrew, $5.99, Dec-07-01 17:15:19, Dec-14-01 17:15:19, 0, $5.99, USA, null
+1045347222, CWU-45P FLIGHT JACKET W/USN VF-103 INSIGNIA, $174.99, Dec-07-01 17:16:11, Dec-17-01 17:16:11, 0, $174.99, USA, null
+1045348061, Buffy Season 1 - A3 - Autograph Card - Willow, $1.00, Dec-07-01 17:18:25, Dec-17-01 17:18:25, 31, $555.02, Canada, null
+1045350187, Lladro German Shepherd Dog & Pups #6454 Ret., $469.00, Dec-07-01 17:21:30, Dec-17-01 17:21:30, 0, $469.00, Spain, null
+1045350419, Lladro Squirrel Love (Set of 2 figures) Ret., $369.00, Dec-07-01 17:21:49, Dec-17-01 17:21:49, 0, $369.00, Spain, null
+1045351274, Darling Jewish BRIDE &GROOM Celebration Plate, $21.00, Dec-07-01 17:23:39, Dec-17-01 17:23:39, 0, $21.00, USA, null
+1045351627, Mary Moo Moo - Cute DENTIST Cow, $7.99, Dec-07-01 17:24:16, Dec-17-01 17:24:16, 0, $7.99, USA, null
+1045351652, Lladro Dog & Tom Sawyer #12238 Ret. NR, $369.00, Dec-07-01 17:24:03, Dec-17-01 17:24:03, 0, $369.00, Spain, null
+1045351826, Superman 183 & 217 80 pg giants VG-FN, $6.99, Dec-07-01 17:24:46, Dec-17-01 17:24:46, 1, $6.99, USA, null
+1045354249, STARWARS NUMBER 6 1977 MARVEL COMICS F/G, $0.50, Dec-07-01 17:29:53, Dec-14-01 17:29:53, 0, $0.50, USA, null
+1045358739, SIRIUS DRAMA - LINSNER 1ST PRINT, $1.00, Dec-07-01 17:37:51, Dec-17-01 17:37:51, 2, $1.25, USA, null
+1045360853, Avon Snuggly Mouse Candle Holder W/ Box 1983, $1.50, Dec-07-01 17:41:38, Dec-14-01 17:41:38, 0, $1.50, USA, null
+1045361037, Silverplated Renaissance design egg cup, $9.99, Dec-07-01 17:41:32, Dec-14-01 17:41:32, 0, $9.99, USA, null
+1045363331, Homco Circle of Friends FigurineTaste And See, $1.00, Dec-07-01 17:45:44, Dec-14-01 17:45:44, 2, $4.25, USA, null
+1045365342, Dark Green!! Atlas Strong Shoulder Mason, $9.99, Dec-07-01 17:50:01, Dec-14-01 17:50:01, 1, $9.99, USA, null
+1045365533, Precious Moments 1993 BUNDLES OF JOY, $24.99, Dec-07-01 17:49:51, Dec-14-01 17:49:51, 0, $24.99, USA, null
+1045367953, SV 'Early Morning Delivery' NIB N/R, $14.95, Dec-07-01 17:54:54, Dec-14-01 17:54:54, 0, $14.95, USA, null
+1045372296, Hilltop Farms Milk Bottle Peckville Pa., $5.00, Dec-07-01 18:01:41, Dec-14-01 18:01:41, 1, $5.00, USA, null
+1045372371, Irene Spencer HUG ME plate on Fairmont - N/R, $7.99, Dec-07-01 18:01:49, Dec-14-01 18:01:49, 1, $7.99, USA, null
+1045380204, 1888 Receipt Paxton Gallagher Omaha, $5.97, Dec-07-01 18:13:30, Dec-14-01 18:13:30, 0, $5.97, USA, null
+1045382014, Avon Spring & Summer Eggs (1984), $6.00, Dec-07-01 18:17:01, Dec-14-01 18:17:01, 1, $6.00, USA, $31.16
+1045384231, Avon Ruby Red Cape Cod 2 Cordial Stems, $9.99, Dec-07-01 18:21:22, Dec-14-01 18:21:22, 0, $9.99, USA, null
+1045385330, BOOK: Longaberger, An American Tradition NICE, $19.75, Dec-07-01 18:22:30, Dec-17-01 18:22:30, 0, $19.75, USA, null
+1045387051, DALMATION PORCELAIN BOTTLE STOPPER, $5.00, Dec-07-01 18:25:13, Dec-14-01 18:25:13, 1, $5.00, USA, null
+1045388760, Precious Moments Star Morning Enesco Box Mint, $1.00, Dec-07-01 18:29:19, Dec-14-01 18:29:19, 4, $8.50, USA, null
+1045390166, * PARK BENCHS (2) * Dept 56 Snow Village, $3.95, Dec-07-01 18:30:10, Dec-14-01 18:30:10, 0, $3.95, USA, null
+1045393477, CHAMPIONS # 6 MARVEL RAMPAGE STRIKES PART 2!!, $1.00, Dec-07-01 18:34:49, Dec-14-01 18:34:49, 0, $1.00, USA, null
+1045394164, Gold Key: Bonanza 31, $1.00, Dec-07-01 18:35:40, Dec-14-01 18:35:40, 4, $5.50, Canada, null
+1045399008, Maud Earl's Beagle Print, $9.99, Dec-07-01 18:42:48, Dec-14-01 18:42:48, 0, $9.99, USA, $35.96
+1045404382, Hallmark Classic American Car 1966 Mustang, $9.00, Dec-07-01 18:51:58, Dec-14-01 18:51:58, 4, $24.99, USA, null
+1045405868, CHERISHED TEDDIES CANADIAN BOY HINGED BOX, $0.01, Dec-07-01 18:55:52, Dec-14-01 18:55:52, 2, $0.55, USA, null
+1045406109, HOLLY & IVY POSTERN GATE HOUSE CHRISTMAS BELL, $40.00, Dec-07-01 18:55:30, Dec-14-01 18:55:30, 0, $40.00, USA, null
+1045406821, OLD BANDED YELLOW WARE Yellowware Bowl-LARGE, $9.95, Dec-07-01 18:56:03, Dec-14-01 18:56:03, 8, $45.00, USA, null
+1045407232, AMAZING SPIDER-MAN 66 Good, $2.00, Dec-07-01 18:57:34, Dec-14-01 18:57:34, 2, $2.25, USA, null
+1045411293, Charming Tails~REGINALD'S NEWS STAND #87591, $9.00, Dec-07-01 19:02:55, Dec-14-01 19:02:55, 0, $9.00, USA, null
+1045411403, ANGEL COOKIE JARS/JAR (DEVINE), $24.95, Dec-07-01 19:03:28, Dec-14-01 19:03:28, 1, $24.95, USA, $40.86
+1045413526, HALLMARK ADOBE CHURCH 2000 3RD MAGIC, $8.95, Dec-07-01 19:06:32, Dec-14-01 19:06:32, 0, $8.95, USA, null
+1045413825, RETRO KITCHEN: SEARS CHROME BEEHIVE BLENDER, $49.99, Dec-07-01 19:06:42, Dec-17-01 19:06:42, 0, $49.99, USA, null
+1045415692, Collectible Cat Plate - Adorable Kittens, $9.00, Dec-07-01 19:10:06, Dec-17-01 19:10:06, 0, $9.00, USA, null
+1045416099, 1944 pinup girls tatoos original display, $9.99, Dec-07-01 19:11:38, Dec-14-01 19:11:38, 0, $9.99, USA, null
+1045416950, '99 1949 Cadillac Coupe deVille BIN $9.99, $8.99, Dec-07-01 19:12:16, Dec-14-01 19:12:16, 0, $8.99, USA, $26.67
+1045419344, KAMAGURKA/SEELE-Cowboy Henk-scarce OOP book, $9.99, Dec-07-01 19:16:41, Dec-17-01 19:16:41, 0, $9.99, USA, null
+1045421406, 2 DREAMSICLES 10679 AND 10272 NO RESERVE, $7.99, Dec-07-01 19:18:57, Dec-17-01 19:18:57, 0, $7.99, USA, null
+1045422574, Pepsi bottle salt and pepper shakers, $4.99, Dec-07-01 19:20:05, Dec-14-01 19:20:05, 2, $6.52, USA, null
+1045425068, *Mary's Moo MNew* dairy queen tasty treats, $14.99, Dec-07-01 19:23:38, Dec-14-01 19:23:38, 0, $14.99, USA, null
+1045425542, West Germany Beer Stein, $5.00, Dec-07-01 19:24:28, Dec-14-01 19:24:28, 0, $5.00, USA, null
+1045425917, Civil War"MONITOR ON JAMES RIVER" 1912 Print*, $4.99, Dec-07-01 19:25:02, Dec-14-01 19:25:02, 0, $4.99, USA, null
+1045431640, Hallmark Ornament MR. POTATO HEAD Top Spud, $6.99, Dec-07-01 19:33:24, Dec-14-01 19:33:24, 1, $6.99, USA, null
+1045433256, VINTAGE GREEK KEY DECO LINEN TABLECLOTH N/R!!, $0.99, Dec-07-01 19:35:44, Dec-17-01 19:35:44, 1, $0.99, USA, null
+1045438020, Longaberger Ret APRON Traditional Holly MINT, $30.00, Dec-07-01 19:42:57, Dec-17-01 19:42:57, 0, $30.00, USA, null
+1045438202, DEPT 56 NP - SLEIGH AND TINY REINDEER S/5, $21.00, Dec-07-01 19:43:18, Dec-14-01 19:43:18, 1, $21.00, USA, null
+1045438837, Precious Moments Cane You Join Us...MIB, $18.50, Dec-07-01 19:44:14, Dec-17-01 19:44:14, 0, $18.50, USA, null
+1045443230, PRETTY AS A PICTURE, LIFE'S BEST GIFTS, $12.99, Dec-07-01 19:51:46, Dec-14-01 19:51:46, 0, $12.99, USA, null
+1045447604, BATTLESTAR GALACTICA Comic Book #1, $3.00, Dec-07-01 19:58:24, Dec-14-01 19:58:24, 0, $3.00, USA, null
+1045449303, NEW~~SET/6 FRUIT GLASS SWIZZLE/STIR STICKS, $7.50, Dec-07-01 20:01:40, Dec-14-01 20:01:40, 0, $7.50, Canada, null
+1045452503, DEPT 56 HV - FARM ANIMALS S/8, $17.00, Dec-07-01 20:05:44, Dec-14-01 20:05:44, 0, $17.00, USA, null
+1045453249, Enesco PM June Hopechest with birthstone NMIB, $16.50, Dec-07-01 20:07:08, Dec-14-01 20:07:08, 0, $16.50, USA, null
+1045456564, Elsmore KS Kansas 1895 High School Graduation, $5.99, Dec-07-01 20:13:25, Dec-14-01 20:13:25, 1, $5.99, USA, null
+1045456771, Lot of 2 TARZAN #180 & #187 Gold Key 1968/69, $7.75, Dec-07-01 20:14:05, Dec-14-01 20:14:05, 0, $7.75, Canada, null
+1045460719, 14-Hallmark Classic cars 91 to 02 + 3 BONUS, $1.99, Dec-07-01 20:22:45, Dec-14-01 20:22:45, 13, $102.50, USA, null
+1045461511, PEP COMICS #272 BRONZE AGE, $1.00, Dec-07-01 20:23:52, Dec-14-01 20:23:52, 0, $1.00, USA, null
+1045462001, Hallmark The Secret Garden Hardback $2.50 PP, $1.00, Dec-07-01 20:24:38, Dec-14-01 20:24:38, 0, $1.00, USA, null
+1045463362, Precious Moments Figurine ~ My True Love, $14.99, Dec-07-01 20:27:05, Dec-14-01 20:27:05, 0, $14.99, USA, null
+1045464047, Precious Moments Figurine ~ Perfect Day, $14.99, Dec-07-01 20:28:15, Dec-14-01 20:28:15, 0, $14.99, USA, null
+1045468095, Wonderful Life/By Light of Moon/Plate #3, $24.99, Dec-07-01 20:36:41, Dec-14-01 20:36:41, 0, $24.99, USA, null
+1045468544, Gooseberry Patch Measuring Spoons~Pinch~Dash~, $4.25, Dec-07-01 20:45:09, Dec-14-01 20:45:09, 0, $4.25, USA, null
+1045468872, SCOOBY DOO with HAMBURGER SALT & PEPPER SET, $9.75, Dec-07-01 20:37:24, Dec-14-01 20:37:24, 0, $9.75, USA, null
+1045471787, DAVIS EMBOSSED OPEN PONTIL MEDICINE BOTTLE, $14.95, Dec-07-01 20:43:51, Dec-17-01 20:43:51, 1, $14.95, USA, null
+1045473268, Police Action #3 (1975) Mike Ploog, $2.00, Dec-07-01 20:46:13, Dec-14-01 20:46:13, 1, $2.00, USA, null
+1045473347, Wulf #3 (1975) Great Cover, $2.00, Dec-07-01 20:46:22, Dec-14-01 20:46:22, 0, $2.00, USA, null
+1045477459, MINT NEW TUPPERWARE HUNTER GREEN 2PCS., $3.99, Dec-07-01 20:55:33, Dec-17-01 20:55:33, 1, $3.99, USA, null
+1045477615, HALMARK ORNAMENT SIXTH KIDDIE CAR CLASSICS, $4.50, Dec-07-01 20:57:09, Dec-14-01 20:57:09, 1, $4.50, USA, null
+1045478180, SWAROVSKI 2000 Christmas Star Ornament, $9.95, Dec-07-01 20:58:07, Dec-17-01 20:58:07, 6, $34.00, USA, null
+1045478376, Avon 1970's English Provincial Charisma Oil, $1.99, Dec-07-01 20:58:31, Dec-14-01 20:58:31, 0, $1.99, USA, null
+1045480931, SCALE,FOOD,POSTAL,ETC /GRAMS/ OUNCES - NEW, $2.49, Dec-07-01 21:04:46, Dec-14-01 21:04:46, 1, $2.49, USA, null
+1045480969, DISNEY PINOCCHIO COOKIE JAR - FAST SHIPPING!, $32.95, Dec-07-01 21:03:44, Dec-14-01 21:03:44, 0, $32.95, USA, $96.57
+1045481175, Kull #1 (1971) REH / Wood, $2.00, Dec-07-01 21:04:14, Dec-14-01 21:04:14, 1, $2.00, USA, null
+1045481434, HALLMARK SWISS CHEESE ORNAMENT 1984, $9.99, Dec-07-01 21:05:05, Dec-14-01 21:05:05, 0, $9.99, USA, null
+1045481868, Sword Of Sorcery #3 (1973) Kaluta / Chaykin, $2.00, Dec-07-01 21:06:07, Dec-14-01 21:06:07, 1, $2.00, USA, null
+1045481985, Vintage Southwestern Designed S&P Shakers/NR, $4.99, Dec-07-01 21:06:50, Dec-17-01 21:06:50, 0, $4.99, USA, null
+1045483038, DEPT 56 DV - PAR FOR THE COURSE S/3, $14.00, Dec-07-01 21:09:51, Dec-14-01 21:09:51, 0, $14.00, USA, null
+1045483617, Charming Tails~Teamwork Helps!, $12.00, Dec-07-01 21:11:48, Dec-14-01 21:11:48, 0, $12.00, USA, null
+1045485650, ALUMINUM - SAUCY MELTER w/ ORIGINAL BOX, $4.99, Dec-07-01 21:15:54, Dec-17-01 21:15:54, 0, $4.99, USA, null
+1045486382, Sweatshirt Fire Dept. F.D.N.Y. Shirt Lg fdny, $18.00, Dec-07-01 21:18:34, Dec-14-01 21:18:34, 0, $18.00, USA, null
+1045486995, PRECIOUS MOMENTS PORCELAIN CROSS-Enesco, $2.00, Dec-07-01 21:21:29, Dec-14-01 21:21:29, 1, $2.00, USA, null
+1045488593, LUCY & ME AS "HARPO MARX", $8.99, Dec-07-01 21:24:23, Dec-14-01 21:24:23, 0, $8.99, USA, null
+1045489344, THE ROCKETEER GN by Dave Stevens 1st ed, $1.00, Dec-07-01 21:26:01, Dec-17-01 21:26:01, 1, $1.00, USA, null
+1045491776, ALFA ROMEO 164 HIGH PERFORMANCE LUXURY AD, $4.95, Dec-07-01 21:34:00, Dec-14-01 21:34:00, 0, $4.95, USA, null
+1045493359, BEAUTIFUL APPLE BASKET COOKIE JAR JARS NEW, $18.99, Dec-07-01 21:38:09, Dec-14-01 21:38:09, 1, $18.99, USA, null
+1045493882, XENA Season 6 TRADING CARD SET **NEW**, $3.95, Dec-07-01 21:39:58, Dec-17-01 21:39:58, 0, $3.95, USA, null
+1045493963, STAR WARS INFINITIES 3 4 What if, $5.99, Dec-07-01 21:40:04, Dec-14-01 21:40:04, 4, $10.00, USA, null
+1045494090, Fitz Floyd Pumpkin Eggplant Salt Pepper, $21.95, Dec-07-01 21:40:30, Dec-14-01 21:40:30, 0, $21.95, USA, null
+1045494393, Charming Tails~Flights of Fancy Orn, $19.95, Dec-07-01 21:41:48, Dec-14-01 21:41:48, 1, $19.95, USA, null
+1045495205, AVON THREE WONDERFUL AVON ITEMS, $1.99, Dec-07-01 21:45:46, Dec-14-01 21:45:46, 0, $1.99, USA, null
+1045495328, Pair Chef Pie Birds 1 Black And 1 White CUTE, $14.99, Dec-07-01 21:45:20, Dec-14-01 21:45:20, 1, $14.99, USA, null
+1045504133, AMAZING SPIDER-MAN #80 Chameleon Buscema1970, $22.95, Dec-07-01 22:15:07, Dec-14-01 22:15:07, 0, $22.95, USA, null
+1045504875, Tomb of Dracula #15 VF NR :WOW:, $7.99, Dec-07-01 22:19:45, Dec-14-01 22:19:45, 0, $7.99, USA, null
+1045505212, WINGS#120-Fiction House,1953 Nice Cover, $14.99, Dec-07-01 22:22:09, Dec-14-01 22:22:09, 0, $14.99, USA, null
+1045508755, Goebel Christmas Morning $250srp Looney Tunes, $84.99, Dec-07-01 22:41:24, Dec-17-01 22:41:24, 0, $84.99, USA, null
+1045510294, AVENGERS #61 Vision, Black Panther, Wasp 1969, $14.95, Dec-07-01 22:51:43, Dec-14-01 22:51:43, 0, $14.95, USA, null
+1045512636, MIX N STORE PLUS PITCHER PLUS BONUS !!!!!!, $2.99, Dec-07-01 23:10:07, Dec-14-01 23:10:07, 2, $3.25, USA, null
+1045516588, LEFTON "THOMAS POINT" LIGHTHOUSE, $9.99, Dec-07-01 23:47:47, Dec-14-01 23:47:47, 0, $9.99, USA, null
+1045516919, CUTE TEA SHOP HOUSE SHAPED TEAPOT TEA POT MIP, $7.99, Dec-07-01 23:52:03, Dec-14-01 23:52:03, 1, $7.99, USA, null
+1045520156, INDEPENDENT LIFE INS. CO. HYGEIA BABY BOTTLE, $6.00, Dec-08-01 00:20:22, Dec-15-01 00:20:22, 0, $6.00, USA, null
+1045521656, Awesome Apple Napkin Rings new in box, $3.99, Dec-08-01 00:31:02, Dec-15-01 00:31:02, 0, $3.99, USA, null
+1045522967, Dept 56~Tending the New Calves-set/3 Retired!, $24.95, Dec-08-01 00:43:08, Dec-15-01 00:43:08, 0, $24.95, USA, null
+1045523926, Popiels Veg-O-Matic II, $8.00, Dec-08-01 01:00:40, Dec-15-01 01:00:40, 3, $10.00, USA, null
+1045524027, **SHERWOOD FOREST COLLECTION**DAVID WINTER***, $1.00, Dec-08-01 01:01:44, Dec-15-01 01:01:44, 6, $177.50, USA, null
+1045533758, CVS MISFIT SAM THE SNOWMAN ENESCO ORNAMENT, $2.49, Dec-08-01 03:33:32, Dec-15-01 03:33:32, 0, $2.49, USA, null
+1045535889, 50's Salt and Pepper Set Red tops, $3.00, Dec-08-01 04:03:55, Dec-15-01 04:03:55, 0, $3.00, USA, null
+1045541095, Pretty As A Picture - -Ltd Edition Nativity, $45.00, Dec-08-01 04:49:47, Dec-18-01 04:49:47, 7, $61.00, USA, $86.63
+1045543530, LUCY AND ME BEARS HOLDING PICTURE FRAME - MIB, $4.99, Dec-08-01 05:12:46, Dec-15-01 05:12:46, 0, $4.99, USA, null
+1045546047, Ceramic GRAPES TEAPOT Kitchen Wall Plaque, $5.00, Dec-08-01 05:31:58, Dec-15-01 05:31:58, 0, $5.00, USA, null
+1045548723, HUM 21/0 Heavenly Angel Tmk 6, $27.00, Dec-08-01 05:47:24, Dec-15-01 05:47:24, 2, $32.00, USA, null
+1045551724, DEP.56 SNOWBABIES I SEE YOU, $22.50, Dec-08-01 06:03:01, Dec-15-01 06:03:01, 0, $22.50, USA, null
+1045553108, Longaberger (2) Holly Mugs - Brand New, $8.00, Dec-08-01 06:10:24, Dec-18-01 06:10:24, 3, $8.50, USA, null
+1045556104, MILK BOTTLE - LEONARD'S DAIRY - NEW YORK, $9.99, Dec-08-01 06:28:31, Dec-15-01 06:28:31, 0, $9.99, USA, null
+1045556364, 2 Precious Moments Fan Pulls ! CUTE!!, $8.00, Dec-08-01 06:29:50, Dec-15-01 06:29:50, 0, $8.00, USA, $14.93
+1045557193, Fire fighting cigarette cards 1930, $49.00, Dec-08-01 06:33:56, Dec-13-01 06:33:56, 0, $49.00, United Kingdom, null
+1045558134, Lefton Polar Bear Pals Figurine MINT SO CUTE, $7.95, Dec-08-01 06:39:06, Dec-15-01 06:39:06, 0, $7.95, USA, null
+1045560663, Dept 56~*~Monopoly~*~ORIENTAL AVENUE~*~NR, $22.50, Dec-08-01 06:50:45, Dec-15-01 06:50:45, 0, $22.50, USA, null
+1045562364, UNCANNY X-MEN #97 CGC 9.2 NM-, $1.00, Dec-08-01 07:00:07, Dec-15-01 07:00:07, 5, $62.01, USA, null
+1045568348, The Cookie Bakery Cookie Jar, $1.00, Dec-08-01 07:29:06, Dec-18-01 07:29:06, 2, $1.25, USA, null
+1045570474, GORGEOUS FROSTED AMBER DECANTER + 6 GLASSES!!, $9.99, Dec-08-01 07:39:23, Dec-15-01 07:39:23, 0, $9.99, USA, null
+1045570482, 1 HOLIDAY COOKIE JAR HOUSE snowman, $7.99, Dec-08-01 07:38:44, Dec-15-01 07:38:44, 0, $7.99, USA, null
+1045570669, Brown Bag Hearts and Flowers Cookie Stamp, $6.99, Dec-08-01 16:01:36, Dec-15-01 16:01:36, 0, $6.99, USA, null
+1045573947, Snow Village SNOWY HILLS HOSPITAL, $97.50, Dec-08-01 07:55:30, Dec-15-01 07:55:30, 0, $97.50, USA, null
+1045577527, VERY NICE CUT GLASS SALT & PEPPER SHAKERS, $2.00, Dec-08-01 08:08:42, Dec-15-01 08:08:42, 0, $2.00, USA, null
+1045577561, NR Hallmark SILVER STAR Train Set of 3 mimb, $9.99, Dec-08-01 08:08:37, Dec-15-01 08:08:37, 1, $9.99, USA, null
+1045578379, RARE Tupperware Black Rock N Serve Round 3, $19.99, Dec-08-01 08:12:05, Dec-18-01 08:12:05, 0, $19.99, USA, null
+1045582030, KITTEN THREE TINY TREASURES, $12.99, Dec-08-01 08:25:32, Dec-15-01 08:25:32, 0, $12.99, USA, null
+1045584095, THE MIGHTY THOR #215, $0.99, Dec-08-01 08:33:45, Dec-15-01 08:33:45, 1, $0.99, USA, null
+1045584268, VINTAGE HOMCO CLOWNS-2, $19.99, Dec-08-01 08:34:05, Dec-18-01 08:34:05, 0, $19.99, USA, null
+1045585905, AVON PLATE 1995 CHRISTMAS TRIMMING THE TREE, $4.95, Dec-08-01 08:40:30, Dec-15-01 08:40:30, 1, $4.95, USA, null
+1045585978, Souvenir Salt and Pepper Shakers Set of Three, $4.99, Dec-08-01 08:40:02, Dec-15-01 08:40:02, 0, $4.99, USA, null
+1045586641, WHAT IF #1 - CGC NM 9.4 OFF-WHITE-WHITE PG, $19.99, Dec-08-01 08:43:08, Dec-15-01 08:43:08, 2, $21.50, USA, null
+1045588543, Knowles Limited Edition "Annie & Sandy' Plate, $6.00, Dec-08-01 08:49:06, Dec-15-01 08:49:06, 0, $6.00, USA, null
+1045590166, Peanuts Magic #4 Ornament--Hallmark, $14.99, Dec-08-01 08:55:12, Dec-15-01 08:55:12, 2, $20.50, USA, null
+1045591004, 2 Old Sets For 1 Price Glass Salt & Pepper NR, $2.75, Dec-08-01 08:58:21, Dec-15-01 08:58:21, 0, $2.75, USA, null
+1045593599, Seattle SEAHAWKS Practice FOOTBALL JERSEY M, $5.75, Dec-08-01 09:07:12, Dec-15-01 09:07:12, 3, $6.50, USA, null
+1045594176, R. CRUMB PIONEERS OF COUNTRY MUSIC CARD SET, $19.99, Dec-08-01 09:08:54, Dec-18-01 09:08:54, 0, $19.99, USA, null
+1045596448, LENOX FIRST CHRISTMAS 2000 BABY BOY ORNAMENT, $9.99, Dec-08-01 09:16:28, Dec-15-01 09:16:28, 1, $9.99, USA, null
+1045598437, BATMAN!!! LARGE LOT OF BATMAN COMICS!, $250.00, Dec-08-01 09:22:45, Dec-18-01 09:22:45, 0, $250.00, USA, null
+1045599241, Radko Jim Henson's "Fozzie Bear" baker, $22.00, Dec-08-01 09:25:32, Dec-15-01 09:25:32, 0, $22.00, USA, $106.48
+1045601612, Rollerama Roller Skaters Accessory Set of 2, $14.99, Dec-08-01 09:33:12, Dec-15-01 09:33:12, 0, $14.99, USA, null
+1045602125, Superman Postcards 1972 Super COOL!!!!!!, $14.95, Dec-08-01 09:34:26, Dec-15-01 09:34:26, 0, $14.95, USA, null
+1045602170, Hallmark Ornament ~ Frosty Friends & Wreath, $1.00, Dec-08-01 09:34:48, Dec-15-01 09:34:48, 4, $8.00, USA, null
+1045602986, ANGEL WITH HORN=LG V=WITH BEE=STAMPED GERMANY, $9.99, Dec-08-01 09:37:15, Dec-15-01 09:37:15, 1, $9.99, USA, null
+1045604603, Ultimate Strangers in Paradise Lot Great Book, $4.20, Dec-08-01 09:42:47, Dec-15-01 09:42:47, 2, $4.70, USA, null
+1045606939, Tree Trimmin' Time, Winnie The Pooh, $14.95, Dec-08-01 09:50:10, Dec-15-01 09:50:10, 0, $14.95, USA, null
+1045608236, 5 BRAND NEW ARCHIE DIGEST COMIC BOOKS NR, $1.99, Dec-08-01 09:54:10, Dec-15-01 09:54:10, 5, $3.25, USA, null
+1045609290, Limoges Peaceable Kingdom Animal Plate, $24.99, Dec-08-01 10:00:25, Dec-18-01 10:00:25, 0, $24.99, USA, null
+1045609361, Superman's Pal Jimmy Olsen #60 VG, $2.00, Dec-08-01 09:57:13, Dec-15-01 09:57:13, 0, $2.00, USA, null
+1045612863, Precious Moments Enesco Holiday Ornament nib, $6.00, Dec-08-01 10:07:12, Dec-15-01 10:07:12, 0, $6.00, USA, null
+1045615794, DUNCAN ROYALE WASSAIL 12" FIGURE, MINT W/BOX!, $50.00, Dec-08-01 10:16:48, Dec-15-01 10:16:48, 0, $50.00, USA, null
+1045615887, Baked Apple Candles Home Interior Homco, $2.99, Dec-08-01 10:16:30, Dec-18-01 10:16:30, 1, $2.99, USA, null
+1045617280, CHAMPION SPORTS #1 - DC Comic - 1973, $1.00, Dec-08-01 10:19:33, Dec-15-01 10:19:33, 0, $1.00, USA, null
+1045618119, Oriental Tin Decorative Bowl ~ Stunning~, $5.00, Dec-08-01 10:28:27, Dec-18-01 10:28:27, 0, $5.00, USA, null
+1045632120, ALL FAMOUS POLICE CASES #10 LB COLE CVR 1953, $4.00, Dec-08-01 10:57:38, Dec-15-01 10:57:38, 2, $6.27, USA, null
+1045634599, Sunbeam Electric Iron ( P.Date Dec 22 1925), $9.99, Dec-08-01 11:04:43, Dec-15-01 11:04:43, 1, $9.99, USA, null
+1045635023, 2 My First Precious Moments Baby Doll s MIB, $9.99, Dec-08-01 11:04:56, Dec-18-01 11:04:56, 1, $9.99, USA, null
+1045641581, Duncan Royale Sir Christmas with Staff, $75.00, Dec-08-01 11:20:29, Dec-15-01 11:20:29, 0, $75.00, USA, null
+1045647851, Mary Moo Had Farm Holiday Spirit Hen Rooster, $7.99, Dec-08-01 11:34:30, Dec-15-01 11:34:30, 0, $7.99, USA, null
+1045648841, Old Metal 4 Pc Canister Set w/Old Pictures !!, $17.99, Dec-08-01 11:38:17, Dec-18-01 11:38:17, 0, $17.99, USA, null
+1045652705, Precious Moments - SAMMY CIRCUS- SAMMY, $10.99, Dec-08-01 11:45:27, Dec-15-01 11:45:27, 0, $10.99, USA, null
+1045653591, Memories of Yesterday BOO BOO WITH MISTLETOE, $16.50, Dec-08-01 11:47:05, Dec-15-01 11:47:05, 0, $16.50, USA, null
+1045655459, Dept. 56 LOMAS LTD. MOLASSES 1993 - MIB, $9.99, Dec-08-01 11:51:32, Dec-13-01 11:51:32, 5, $20.00, USA, $34.38
+1045655586, Antique Japan Handpainted Woodpecker S & P, $3.99, Dec-08-01 11:51:12, Dec-15-01 11:51:12, 0, $3.99, USA, null
+1045655611, D56*DICKENS*WM WHEAT CAKES & PUDDINGS*MIB*, $9.95, Dec-08-01 11:52:13, Dec-15-01 11:52:13, 2, $11.73, USA, null
+1045657358, Vintage Pottery Pink & Gold Globes S &, $1.99, Dec-08-01 11:55:30, Dec-15-01 11:55:30, 0, $1.99, USA, null
+1045657408, Washington D.C. State Capital Salt & Pepp, $1.99, Dec-08-01 11:55:36, Dec-15-01 11:55:36, 0, $1.99, USA, null
+1045657799, NY GIANTS NFL SCHEDULE WATCH * NEW *, $0.01, Dec-08-01 11:56:58, Dec-18-01 11:56:58, 8, $15.50, USA, null
+1045664346, 3 RARE Adventurers Posters Fantasy Comics, $2.00, Dec-08-01 12:13:13, Dec-15-01 12:13:13, 1, $2.00, USA, null
+1045671817, CHERISHED TEDDIES NICKOLAS, $15.00, Dec-08-01 12:29:33, Dec-15-01 12:29:33, 2, $16.00, USA, null
+1045671883, Limited Ed Eagle Plate by Van Ruyckevelt, $35.00, Dec-08-01 12:29:54, Dec-15-01 12:29:54, 0, $35.00, USA, $51.14
+1045677283, Precious Moments E-5637 The Heavenly Light, $22.50, Dec-08-01 12:41:54, Dec-15-01 12:41:54, 1, $22.50, USA, null
+1045677572, LOT OF WOODEN SPOONS TAKE A LOOK, $0.99, Dec-08-01 12:43:24, Dec-15-01 12:43:24, 1, $0.99, USA, null
+1045678297, ENESCO CENTIMENTAL BEARS SET-7 TEDDY BEARS, $4.00, Dec-08-01 12:45:06, Dec-15-01 12:45:06, 1, $4.00, USA, null
+1045678903, River Group Elvis Dufex card #24/40, $4.99, Dec-08-01 12:45:58, Dec-18-01 12:45:58, 0, $4.99, Canada, null
+1045679123, Bottle Opener "White Rock", $3.00, Dec-08-01 12:47:26, Dec-15-01 12:47:26, 0, $3.00, USA, null
+1045680516, Norman Rockwell Plate Our Love of Country, $4.00, Dec-08-01 12:50:10, Dec-18-01 12:50:10, 1, $4.00, USA, null
+1045680577, Josef Originals! Top condition! Beautiful!, $25.00, Dec-08-01 12:50:14, Dec-15-01 12:50:14, 0, $25.00, USA, $109.92
+1045681492, WINDRIDER ~ Chuck Ren ~ Indian Warriors PLATE, $8.99, Dec-08-01 12:52:38, Dec-15-01 12:52:38, 0, $8.99, USA, null
+1045681675, Enigma Lot Issues 1-5 Vertigo Comics, $3.00, Dec-08-01 12:52:45, Dec-15-01 12:52:45, 0, $3.00, USA, null
+1045683252, Dept 56 Eleven Lords a Leaping NEW IN BOX, $24.95, Dec-08-01 12:57:02, Dec-15-01 12:57:02, 2, $26.00, USA, null
+1045684594, Vintage Jigger Corkscrew & Bottle Opener, $4.99, Dec-08-01 13:00:43, Dec-15-01 13:00:43, 0, $4.99, USA, null
+1045688690, 1964 POPEYE LUNCHBOX With THERMOS, $19.95, Dec-08-01 13:09:06, Dec-18-01 13:09:06, 1, $19.95, USA, null
+1045689513, 8 DC COMICS PRESENTS #86-93 SUPERBOY CREEPER, $5.00, Dec-08-01 13:10:54, Dec-15-01 13:10:54, 0, $5.00, USA, null
+1045692163, ANTIQUE MCNESS CAN, $1.00, Dec-08-01 13:18:08, Dec-18-01 13:18:08, 0, $1.00, USA, null
+1045696657, New! Tupperware Holiday Prep Set - Spatula &!, $6.99, Dec-08-01 13:28:37, Dec-15-01 13:28:37, 0, $6.99, USA, null
+1045697315, Precious Moments January 261203 NIB, $7.95, Dec-08-01 13:29:56, Dec-15-01 13:29:56, 0, $7.95, USA, null
+1045698576, 1999 HALLMARK *MUHAMMAD ALI* KEEPSAKE, $1.00, Dec-08-01 13:34:02, Dec-15-01 13:34:02, 2, $1.80, USA, null
+1045699221, 1688 FLAG SHIP BOTTLE STOPPER & OPENER SET, $9.00, Dec-08-01 13:35:01, Dec-15-01 13:35:01, 0, $9.00, USA, null
+1045699348, Longaberger Baskets CARD KEEPER +PROT + LID, $9.99, Dec-08-01 13:35:08, Dec-15-01 13:35:08, 18, $82.50, USA, null
+1045700537, Homco Home Interior Christmas Bears, $9.00, Dec-08-01 13:37:24, Dec-15-01 13:37:24, 1, $9.00, USA, $50.07
+1045702702, JIMMY DURANTE BY ESCO DATED 1974, $9.99, Dec-08-01 13:42:22, Dec-15-01 13:42:22, 11, $91.00, USA, null
+1045703148, SPOONTIQUES CASTLE WITH CYRSTAL CM 986, $3.00, Dec-08-01 13:43:58, Dec-15-01 13:43:58, 1, $3.00, USA, null
+1045704363, Amber Unembossed Lightning Pint Fruit jar, $10.00, Dec-08-01 13:46:09, Dec-15-01 13:46:09, 14, $46.00, Canada, null
+1045705706, Beautiful SANTA In SLEIGH Cookie Jar, $17.99, Dec-08-01 13:49:54, Dec-15-01 13:49:54, 0, $17.99, USA, null
+1045710634, New Large Couch Potato Chip & Dip Ceramic NR, $2.75, Dec-08-01 14:05:09, Dec-15-01 14:05:09, 0, $2.75, USA, null
+1045711485, Harbour Lights - Tybee Island Georgia #423, $49.99, Dec-08-01 14:00:53, Dec-15-01 14:00:53, 0, $49.99, USA, $166.22
+1045716476, M.A.R.S. PATROL TOTAL WAR COMIC #4 1967 NR, $1.00, Dec-08-01 14:13:19, Dec-15-01 14:13:19, 0, $1.00, USA, null
+1045719451, Avon 1993 Our First Christmas Ornament, $3.00, Dec-08-01 14:20:03, Dec-13-01 14:20:03, 0, $3.00, USA, null
+1045722461, Ritzenhoff Unique German Beer Glass TN2, $12.50, Dec-08-01 14:26:27, Dec-15-01 14:26:27, 0, $12.50, USA, null
+1045722507, Ritzenhoff Unique German Beer Glass TN7, $12.50, Dec-08-01 14:26:37, Dec-15-01 14:26:37, 0, $12.50, USA, null
+1045723239, KILLER 1950'S RICKY ROBE !!!, $16.99, Dec-08-01 14:28:22, Dec-18-01 14:28:22, 0, $16.99, USA, null
+1045723355, Longaberger 1996 Bee LINER and TIE-ON Set, $14.95, Dec-08-01 14:28:35, Dec-15-01 14:28:35, 0, $14.95, USA, null
+1045724030, FELIX the CAT Magnets, $9.99, Dec-08-01 14:30:04, Dec-15-01 14:30:04, 0, $9.99, USA, null
+1045724759, INDIANA JONES TEMPLE OF DOOM SET + BONUS, $14.99, Dec-08-01 14:32:00, Dec-18-01 14:32:00, 0, $14.99, USA, null
+1045725925, Baseball theme Heavy Pewter Frame 4 X 5 1/2", $2.50, Dec-08-01 14:35:02, Dec-15-01 14:35:02, 0, $2.50, USA, null
+1045728189, Gold Key Tom & Jerry No 299, $3.00, Dec-08-01 14:40:22, Dec-15-01 14:40:22, 0, $3.00, USA, null
+1045728214, D C Comic Superman Family No 177, $3.00, Dec-08-01 14:40:25, Dec-15-01 14:40:25, 0, $3.00, USA, null
+1045730799, X-MEN Lot 33 - #2, $100.00, Dec-08-01 14:47:15, Dec-15-01 14:47:15, 0, $100.00, USA, null
+1045731418, Richard Kiel twilight zone autograph 'Hi' A-3, $14.99, Dec-08-01 14:48:53, Dec-18-01 14:48:53, 2, $15.49, USA, null
+1045732786, Hallmark Ornament Peter Pan and Tinkerbell, $3.99, Dec-08-01 14:52:13, Dec-15-01 14:52:13, 4, $8.50, USA, null
+1045732931, Viceroy Cigarette American Airline Pack, $2.99, Dec-08-01 14:52:39, Dec-15-01 14:52:39, 0, $2.99, USA, null
+1045738337, Vintage Aluminum Mirro Donut Maker, $1.99, Dec-08-01 15:05:20, Dec-18-01 15:05:20, 1, $1.99, USA, null
+1045739279, WALNUT ANSONIA MANTLE CLOCK 1882, $39.99, Dec-08-01 15:07:32, Dec-15-01 15:07:32, 2, $42.00, USA, null
+1045742100, Ghostly Tales #68 FN NR :CHECK IT OUT:, $3.59, Dec-08-01 15:14:21, Dec-15-01 15:14:21, 0, $3.59, USA, null
+1045743020, Precious Moments Sugar Town "KATY LYNNE", $3.99, Dec-08-01 15:17:39, Dec-15-01 15:17:39, 7, $31.00, USA, null
+1045746374, HELLERWARE 3 TIER CHROMIUM TRAY...NICE!!, $7.00, Dec-08-01 15:24:23, Dec-15-01 15:24:23, 0, $7.00, USA, null
+1045746742, Hood's 1/2 Pint Square Store Milk Bottle, $9.95, Dec-08-01 15:25:14, Dec-15-01 15:25:14, 1, $9.95, USA, null
+1045747129, Precious Moments Peace on Earth E9287, $100.00, Dec-08-01 15:26:19, Dec-13-01 15:26:19, 0, $100.00, USA, null
+1045747332, Jessie Willcox Smith - Story Time - PLATE, $7.99, Dec-08-01 15:26:52, Dec-15-01 15:26:52, 1, $7.99, USA, $25.66
+1045748248, HALLMARK CHILD CARE GIVER 1996, $3.99, Dec-08-01 15:29:30, Dec-15-01 15:29:30, 0, $3.99, USA, null
+1045748611, Blue Willow MEASURING SPOONS,set of 5, $19.99, Dec-08-01 15:30:04, Dec-15-01 15:30:04, 0, $19.99, USA, null
+1045750612, LONGABERGER Parsley Booking basket, $9.99, Dec-08-01 15:35:50, Dec-15-01 15:35:50, 5, $25.99, USA, null
+1045754011, Silver Cake Server Very Ornate England, $8.50, Dec-08-01 15:43:32, Dec-15-01 15:43:32, 1, $8.50, USA, null
+1045754969, 1945 CAPTAIN MARVEL ADVENTURES #49 CGC Graded, $0.10, Dec-08-01 15:45:09, Dec-15-01 15:45:09, 10, $37.77, Canada, null
+1045756299, Seven 19th Century Inks, $3.99, Dec-08-01 15:48:41, Dec-18-01 15:48:41, 0, $3.99, USA, null
+1045756410, Thor 241 1975 vfn, $1.00, Dec-08-01 15:49:14, Dec-15-01 15:49:14, 1, $1.00, USA, null
+1045756544, WHITE GENTLEMEN GLASS PITCHER MADE IN JAPAN, $24.99, Dec-08-01 15:49:05, Dec-15-01 15:49:05, 0, $24.99, USA, null
+1045757105, Incredible Hulk: Transformations tpb, $2.00, Dec-08-01 15:50:59, Dec-15-01 15:50:59, 1, $2.00, USA, null
+1045757611, Longaberger Holly 1 quart crock & candle, $18.00, Dec-08-01 15:52:00, Dec-15-01 15:52:00, 2, $18.50, USA, null
+1045758137, Starter Yankees Jacket, $10.00, Dec-08-01 15:54:54, Dec-15-01 15:54:54, 2, $11.50, USA, null
+1045761123, MASON'S PINT CFG**PIC**, $3.00, Dec-08-01 16:01:59, Dec-15-01 16:01:59, 1, $3.00, USA, null
+1045761545, 1979 Goebel Angel Bell Ornament-White, $5.99, Dec-08-01 16:03:02, Dec-15-01 16:03:02, 0, $5.99, USA, null
+1045764509, Dreamsicles: Rainbow Rider? - Large - No Box, $5.99, Dec-08-01 16:10:10, Dec-15-01 16:10:10, 1, $5.99, USA, null
+1045767117, 1881 Northern Pacific Railroad ticket-large, $5.00, Dec-08-01 16:16:20, Dec-15-01 16:16:20, 3, $8.50, USA, null

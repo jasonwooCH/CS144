@@ -182,11 +182,86 @@ class MyParser {
         
         /* Fill in code here (you will probably need to write auxiliary
             methods). */
+
+        Node root = doc.getDocumentElement();
         
-        
+        org.w3c.dom.NodeList itemList = root.getChildNodes();
+
+        for (int i = 0; i < itemList.getLength(); i++) {
+            Node currItem = itemList.item(i);
+            String currType = typeName[currItem.getNodeType()];
+
+            if (currType == "Element")
+                processItem(currItem);
+
+            //else
+            //    System.out.println("GARBAGE LINE");
+
+            //else if Text, it's whitespace - garbage data
+        }
+
         
         /**************************************************************/
         
+    }
+
+    /* In this function process the Item relation
+        HashMap for each column in table
+        Will call other aux functions for Category, Bidder etc.
+    */
+    public static void processItem(Node n) {
+
+        HashMap<String, String> itemMap = new HashMap<String, String>();
+        itemMap.put("ItemID", null);
+        itemMap.put("Name", null);
+        itemMap.put("Description", null);
+        itemMap.put("First_Bid", null);
+        itemMap.put("Started", null);
+        itemMap.put("Ends", null);
+        itemMap.put("Number_of_Bids", null);
+        itemMap.put("Currently", null);
+        itemMap.put("Country", null);
+        itemMap.put("Buy_Price", null);
+
+        //System.out.println("GOT TO THIS FXN");
+
+        org.w3c.dom.NamedNodeMap nattrib = n.getAttributes();
+        // should only have one
+        String item_id = null;
+        if(nattrib != null && nattrib.getLength() == 1) {
+            item_id = nattrib.item(0).getNodeValue(); 
+            itemMap.put("ItemID", item_id); // update itemID
+            //System.out.println("ItemID is " + item_id);
+        }
+        
+        org.w3c.dom.NodeList nlist = n.getChildNodes();
+
+        for(int i=0; i < nlist.getLength(); i++) {
+
+            String elemName = nlist.item(i).getNodeName();
+
+            if (itemMap.containsKey(elemName)) {
+                org.w3c.dom.NodeList elemChild = nlist.item(i).getChildNodes();
+
+                if (elemChild.getLength() != 0) {
+                    itemMap.put(elemName, elemChild.item(0).getNodeValue());
+                    //System.out.println(elemName + " " + elemChild.item(0).getNodeValue());
+                    //System.out.println("ItemID is " + item_id);
+                }
+            }
+        }
+
+        System.out.println(itemMap.get("ItemID") + ", " + 
+                           itemMap.get("Name") + ", " +
+                           //itemMap.get("Description") + ", " +
+                           itemMap.get("First_Bid") + ", " +
+                           itemMap.get("Started") + ", " +
+                           itemMap.get("Ends") + ", " +
+                           itemMap.get("Number_of_Bids") + ", " +
+                           itemMap.get("Currently") + ", " +
+                           itemMap.get("Country") + ", " +
+                           itemMap.get("Buy_Price"));
+
     }
     
     public static void main (String[] args) {
@@ -194,6 +269,14 @@ class MyParser {
             System.out.println("Usage: java MyParser [file] [file] ...");
             System.exit(1);
         }
+
+        /*
+        try {
+            System.setOut(new PrintStream(new File("itemTest.txt")));
+        } catch (Exception e) {
+             e.printStackTrace();
+        }
+        */
         
         /* Initialize parser. */
         try {
