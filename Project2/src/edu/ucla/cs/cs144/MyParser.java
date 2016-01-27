@@ -205,6 +205,89 @@ class MyParser {
         
     }
 
+    public static void processBid(Node n, String item_id) { // Bid Element
+        // each bid = one bidder, time, amount etc.
+
+        HashMap<String, String> bidderMap = new HashMap<String, String>();
+        bidderMap.put("UserID", null);
+        bidderMap.put("Rating", null);
+        bidderMap.put("Location", null);
+        bidderMap.put("Country", null);
+
+        HashMap<String, String> bidsMap = new HashMap<String, String>();
+        bidsMap.put("Time", null);
+        bidsMap.put("Amount", null);
+
+        org.w3c.dom.NodeList nlist = n.getChildNodes();
+        // child = Bidder(tree), Time or Amount
+
+        for (int i = 0; i < nlist.getLength(); i++) {
+
+            if (nlist.item(i).getNodeName() == "Time") { // ex. Dec-09-01 20:16:20
+                String bidTime = nlist.item(i).getFirstChild().getNodeValue();
+                //System.out.println(bidTime);
+                SimpleDateFormat xmlFormat = 
+                    new SimpleDateFormat("MMM-dd-yy HH:mm:ss");
+                SimpleDateFormat tsFormat = 
+                    new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+                Date parsed = null;
+                try {
+                    parsed = xmlFormat.parse(bidTime);    
+                }
+                catch(ParseException pe) {
+                    System.out.println("ERROR: Cannot parse \"" + bidTime + "\"");
+                }
+                
+                String sqlTime = tsFormat.format(parsed);
+
+                bidsMap.put("Time", sqlTime);
+                //System.out.println(sqlTime);
+
+            }
+            else if (nlist.item(i).getNodeName() == "Amount") {
+                String bidAmt = nlist.item(i).getFirstChild().getNodeValue();
+                
+                String sqlAmt = strip(bidAmt);
+                //System.out.println(sqlAmt); 
+                bidsMap.put("Amount", sqlAmt);  
+            }
+            else if (nlist.item(i).getNodeName() == "Bidder") {
+                org.w3c.dom.NamedNodeMap nattrib = nlist.item(i).getAttributes();
+
+                for (int j = 0; j < nattrib.getLength(); j++) {
+                    String bidAttr = nattrib.item(j).getNodeName();
+                    if (bidderMap.containsKey(bidAttr))
+                        bidderMap.put(bidAttr, nattrib.item(j).getNodeValue());
+                }
+
+                org.w3c.dom.NodeList bidderInfo = nlist.item(i).getChildNodes();
+
+                for (int j = 0; j < bidderInfo.getLength(); j++) {
+                    Node info = bidderInfo.item(j);
+                    String infoName = info.getNodeName();
+                    if (bidderMap.containsKey(infoName))
+                        bidderMap.put(infoName, info.getFirstChild().getNodeValue());
+                }
+            }
+
+        }
+        /* PRINT OUT Bidder.dat
+        System.out.println(bidderMap.get("UserID") + " ," +
+                    bidderMap.get("Rating") + ", " +
+                    bidderMap.get("Location") + ", " +
+                    bidderMap.get("Country"));
+        */
+
+        /* PRINT OUT Bids.dat */
+        System.out.println(item_id + ", " +
+                            bidderMap.get("UserID") + ", " +
+                            bidsMap.get("Amount") + ", " +
+                            bidsMap.get("Time"));
+
+    }
+    
+
     /* In this function process the Item relation
         HashMap for each column in table
         Will call other aux functions for Category, Bidder etc.
@@ -224,6 +307,16 @@ class MyParser {
         itemMap.put("Buy_Price", null);
 
         List<String> categoryList = new ArrayList<String>();
+
+        HashMap<String, String> locationMap = new HashMap<String, String>();
+        locationMap.put("Latitude", null);
+        locationMap.put("Longitude", null);
+        locationMap.put("Name", null);
+
+        HashMap<String, String> sellerMap = new HashMap<String, String>();
+        sellerMap.put("Rating", null);
+        sellerMap.put("UserID", null);
+
 
         org.w3c.dom.NamedNodeMap nattrib = n.getAttributes();
         // should only have one
@@ -267,13 +360,49 @@ class MyParser {
             }
             // Construct the ItemLocation Table
             else if (elemName == "Location") {
-                org.w3c.dom.NodeList elemChild = nlist.item(i).getChildNodes();
+                org.w3c.dom.NodeList locChild = nlist.item(i).getChildNodes();
 
-                if (elemChild.getLength() != 0) {
+                if (locChild.getLength() != 0) {
+                    locationMap.put("Name", locChild.item(0).getNodeValue());
+                }
+
+                org.w3c.dom.NamedNodeMap locAttrb = nlist.item(i).getAttributes();
+                if (locAttrb.getLength() != 0) {
+
+                    for (int j = 0; j < locAttrb.getLength(); j++) {
+                        String latLong = locAttrb.item(j).getNodeName();
+
+                        if (locationMap.containsKey(latLong))
+                            locationMap.put(latLong, locAttrb.item(j).getNodeValue());
+
+                    }
+                }
+
+            }
+            // Construct the Seller and Auction
+            else if (elemName == "Seller") {
+                org.w3c.dom.NamedNodeMap sellAttrb = nlist.item(i).getAttributes();
+
+                for (int j = 0; j < sellAttrb.getLength(); j++) {
+                    String sellerAttr = sellAttrb.item(j).getNodeName();
+
+                    if(sellerMap.containsKey(sellerAttr))
+                        sellerMap.put(sellerAttr, sellAttrb.item(j).getNodeValue());
 
                 }
             }
+            // Construct Bidder and Bids
+            else if (elemName == "Bids") {
+                org.w3c.dom.NodeList bidsList = nlist.item(i).getChildNodes();
 
+                for (int j = 0; j < bidsList.getLength(); j++) {
+                    Node currItem = bidsList.item(j);
+                    String currType = typeName[currItem.getNodeType()];
+
+                    if (currType == "Element")
+                        processBid(currItem, itemMap.get("ItemID"));
+                }
+            }
         }
 
         /* PRINT OUT Item.dat
@@ -294,21 +423,37 @@ class MyParser {
             System.out.println(itemMap.get("ItemID") + ", " + categoryList.get(i));
         */
 
+        /* PRINT OUT ItemLocation.dat 
+        System.out.println(itemMap.get("ItemID") + ", " +
+                            locationMap.get("Name") + ", " +
+                            locationMap.get("Latitude") + ", " +
+                            locationMap.get("Longitude"));
+        */
+
+        /*  PRINT OUT Seller.dat
+        System.out.println(sellerMap.get("UserID") + ", " +
+                            sellerMap.get("Rating"));
+        */
+
+        /*  PRINT OUT auction.dat
+        System.out.println(itemMap.get("ItemID") + ", " +
+                            sellerMap.get("UserID"));
+        */
     }
-    
+
     public static void main (String[] args) {
         if (args.length == 0) {
             System.out.println("Usage: java MyParser [file] [file] ...");
             System.exit(1);
         }
 
-        /*
+               
         try {
-            System.setOut(new PrintStream(new File("categoryTest.dat")));
+            System.setOut(new PrintStream(new File("bidsTest.dat")));
         } catch (Exception e) {
              e.printStackTrace();
         }
-        */
+        
         
         /* Initialize parser. */
         try {

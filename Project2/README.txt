@@ -10,7 +10,7 @@ Item(ItemID, Name, Description, First_Bid, Started, Ends, Number_of_Bids, Curren
 ItemCategory(ItemID, Category) 
 	key - both
 
-ItemLocation(ItemID, Location, Latitude[null], Longitude[null])
+ItemLocation(ItemID, LocationName, Latitude[null], Longitude[null])
 	key - ItemID
 
 Bidder(UserID, Rating, Location[null], Country[null])
