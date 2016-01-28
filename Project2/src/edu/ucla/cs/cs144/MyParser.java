@@ -194,9 +194,6 @@ class MyParser {
             if (currType == "Element")
                 processItem(currItem);
 
-            //else
-            //    System.out.println("GARBAGE LINE");
-
             //else if Text, it's whitespace - garbage data
         }
 
@@ -220,7 +217,6 @@ class MyParser {
 
         org.w3c.dom.NodeList nlist = n.getChildNodes();
         // child = Bidder(tree), Time or Amount
-
         for (int i = 0; i < nlist.getLength(); i++) {
 
             if (nlist.item(i).getNodeName() == "Time") { // ex. Dec-09-01 20:16:20
@@ -279,11 +275,12 @@ class MyParser {
                     bidderMap.get("Country"));
         */
 
-        /* PRINT OUT Bids.dat */
+        /* PRINT OUT Bids.dat
         System.out.println(item_id + ", " +
                             bidderMap.get("UserID") + ", " +
                             bidsMap.get("Amount") + ", " +
                             bidsMap.get("Time"));
+        */
 
     }
     
@@ -324,7 +321,6 @@ class MyParser {
         if(nattrib != null && nattrib.getLength() == 1) {
             item_id = nattrib.item(0).getNodeValue(); 
             itemMap.put("ItemID", item_id); // update itemID
-            //System.out.println("ItemID is " + item_id);
         }
         
         org.w3c.dom.NodeList nlist = n.getChildNodes();
@@ -340,14 +336,11 @@ class MyParser {
                 if (elemChild.getLength() != 0) {
                     String result = elemChild.item(0).getNodeValue();
 
-                    if (result.length() > 4000) {
+                    if (result.length() > 4000)
                         result = result.substring(0, 4000);
-                        //System.out.println("OVER " + result.length() + elemName);
-                    }
+                    
 
                     itemMap.put(elemName, result);
-                    //System.out.println(elemName + " " + elemChild.item(0).getNodeValue());
-                    //System.out.println("ItemID is " + item_id);
                 }
             }
             // Construct ItemCategory Table
@@ -447,13 +440,13 @@ class MyParser {
             System.exit(1);
         }
 
-               
+        /*
         try {
             System.setOut(new PrintStream(new File("bidsTest.dat")));
         } catch (Exception e) {
              e.printStackTrace();
         }
-        
+        */
         
         /* Initialize parser. */
         try {
