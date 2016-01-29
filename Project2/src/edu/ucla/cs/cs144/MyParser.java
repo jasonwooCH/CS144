@@ -208,8 +208,8 @@ class MyParser {
         HashMap<String, String> bidderMap = new HashMap<String, String>();
         bidderMap.put("UserID", null);
         bidderMap.put("Rating", null);
-        bidderMap.put("Location", null);
-        bidderMap.put("Country", null);
+        bidderMap.put("Location", "\\N");
+        bidderMap.put("Country", "\\N");
 
         HashMap<String, String> bidsMap = new HashMap<String, String>();
         bidsMap.put("Time", null);
@@ -219,6 +219,7 @@ class MyParser {
         // child = Bidder(tree), Time or Amount
         for (int i = 0; i < nlist.getLength(); i++) {
 
+            // Bid information
             if (nlist.item(i).getNodeName() == "Time") { // ex. Dec-09-01 20:16:20
                 String bidTime = nlist.item(i).getFirstChild().getNodeValue();
                 //System.out.println(bidTime);
@@ -248,39 +249,72 @@ class MyParser {
                 //System.out.println(sqlAmt); 
                 bidsMap.put("Amount", sqlAmt);  
             }
+            // Construct Bidder Table attributes
             else if (nlist.item(i).getNodeName() == "Bidder") {
                 org.w3c.dom.NamedNodeMap nattrib = nlist.item(i).getAttributes();
 
+                // attributes are ID and Rating
                 for (int j = 0; j < nattrib.getLength(); j++) {
                     String bidAttr = nattrib.item(j).getNodeName();
                     if (bidderMap.containsKey(bidAttr))
                         bidderMap.put(bidAttr, nattrib.item(j).getNodeValue());
                 }
 
+                // only elements are Location or Country
                 org.w3c.dom.NodeList bidderInfo = nlist.item(i).getChildNodes();
 
                 for (int j = 0; j < bidderInfo.getLength(); j++) {
                     Node info = bidderInfo.item(j);
                     String infoName = info.getNodeName();
                     if (bidderMap.containsKey(infoName))
-                        bidderMap.put(infoName, info.getFirstChild().getNodeValue());
+                        bidderMap.put(infoName, "\"" + info.getFirstChild().getNodeValue() + "\"");
                 }
             }
 
         }
-        /* PRINT OUT Bidder.dat
-        System.out.println(bidderMap.get("UserID") + " ," +
-                    bidderMap.get("Rating") + ", " +
-                    bidderMap.get("Location") + ", " +
-                    bidderMap.get("Country"));
-        */
+        ///* PRINT OUT Bidder.dat
+        try {
+            PrintStream writetoBidder = new PrintStream(
+                new FileOutputStream("Bidder.dat", true));
 
-        /* PRINT OUT Bids.dat
-        System.out.println(item_id + ", " +
-                            bidderMap.get("UserID") + ", " +
-                            bidsMap.get("Amount") + ", " +
-                            bidsMap.get("Time"));
-        */
+
+            writetoBidder.append("\"" + bidderMap.get("UserID") + "\"" + "," +
+                            bidderMap.get("Rating") + "," +
+                            bidderMap.get("Location") + "," +
+                            bidderMap.get("Country") + "\n");
+
+        }
+        catch (Exception e) {
+            System.out.println("PrintStream Error");
+            System.exit(2);
+        }
+
+        ///* PRINT OUT Bids.dat
+        try {
+            PrintStream writetoBids = new PrintStream(
+                new FileOutputStream("Bids.dat", true));
+
+            writetoBids.append(item_id + "," +
+                                "\"" + bidderMap.get("UserID") + "\"" + "," +
+                                bidsMap.get("Amount") + "," +
+                                bidsMap.get("Time") + "\n");
+        }
+        catch(Exception e) {
+            System.out.println("PrintStream Error");
+            System.exit(2);
+        }
+
+        ///* ADD TO EbayUser.dat
+        try {
+            PrintStream writetoUser = new PrintStream(
+                new FileOutputStream("EbayUser.dat", true));
+
+            writetoUser.append(bidderMap.get("UserID") + "\n");
+        }
+        catch (Exception e) {
+            System.out.println("PrintStream Error");
+            System.exit(2);
+        }
 
     }
     
@@ -301,13 +335,13 @@ class MyParser {
         itemMap.put("Number_of_Bids", null);
         itemMap.put("Currently", null);
         itemMap.put("Country", null);
-        itemMap.put("Buy_Price", null);
+        itemMap.put("Buy_Price", "\\N");
 
         List<String> categoryList = new ArrayList<String>();
 
         HashMap<String, String> locationMap = new HashMap<String, String>();
-        locationMap.put("Latitude", null);
-        locationMap.put("Longitude", null);
+        locationMap.put("Latitude", "\\N");
+        locationMap.put("Longitude", "\\N");
         locationMap.put("Name", null);
 
         HashMap<String, String> sellerMap = new HashMap<String, String>();
@@ -398,40 +432,102 @@ class MyParser {
             }
         }
 
-        /* PRINT OUT Item.dat
-        System.out.println(itemMap.get("ItemID") + ", " + 
-                           itemMap.get("Name") + ", " +
-                           //itemMap.get("Description") + ", " +
-                           itemMap.get("First_Bid") + ", " +
-                           itemMap.get("Started") + ", " +
-                           itemMap.get("Ends") + ", " +
-                           itemMap.get("Number_of_Bids") + ", " +
-                           itemMap.get("Currently") + ", " +
-                           itemMap.get("Country") + ", " +
-                           itemMap.get("Buy_Price"));
-        */
+        ///* PRINT OUT Item.dat
+        try {
+            PrintStream writetoItem = new PrintStream(
+                new FileOutputStream("Item.dat", true));
 
-        /* PRINT OUT ItemCategory.dat
-        for (int i = 0; i < categoryList.size(); i++) 
-            System.out.println(itemMap.get("ItemID") + ", " + categoryList.get(i));
-        */
+            writetoItem.append(itemMap.get("ItemID") + "," + 
+                           "\""+ itemMap.get("Name") + "\"" + "," +
+                           "\"" +itemMap.get("Description") + "\"" + "," +
+                           itemMap.get("First_Bid") + "," +
+                           itemMap.get("Started") + "," +
+                           itemMap.get("Ends") + "," +
+                           itemMap.get("Number_of_Bids") + "," +
+                           itemMap.get("Currently") + "," +
+                           "\"" + itemMap.get("Country") + "\"" + "," +
+                           itemMap.get("Buy_Price") + "\n");
+        }
+        catch (Exception e) {
+            System.out.println("PrintStream Error");
+            System.exit(2);
+        }
 
-        /* PRINT OUT ItemLocation.dat 
-        System.out.println(itemMap.get("ItemID") + ", " +
-                            locationMap.get("Name") + ", " +
-                            locationMap.get("Latitude") + ", " +
-                            locationMap.get("Longitude"));
-        */
+        ///* PRINT OUT ItemCategory.dat
+        try {
 
-        /*  PRINT OUT Seller.dat
-        System.out.println(sellerMap.get("UserID") + ", " +
-                            sellerMap.get("Rating"));
-        */
+            PrintStream writetoItemCat = new PrintStream(
+                new FileOutputStream("ItemCategory.dat", true));
 
-        /*  PRINT OUT auction.dat
-        System.out.println(itemMap.get("ItemID") + ", " +
-                            sellerMap.get("UserID"));
-        */
+            for (int i = 0; i < categoryList.size(); i++) 
+                writetoItemCat.append(itemMap.get("ItemID") + "," + 
+                                    "\"" + categoryList.get(i) + "\"" + "\n");
+        }
+        catch (Exception e) {
+            System.out.println("PrintStream Error");
+            System.exit(2);
+        }
+
+
+
+        ///* PRINT OUT ItemLocation.dat 
+        try {
+            PrintStream writetoItemLoc = new PrintStream(
+                new FileOutputStream("ItemLocation.dat", true));
+
+            writetoItemLoc.append(itemMap.get("ItemID") + "," +
+                                    "\"" + locationMap.get("Name") + "\"" + "," +
+                                    locationMap.get("Latitude") + "," +
+                                    locationMap.get("Longitude") + "\n");
+
+        }
+        catch (Exception e) {
+            System.out.println("PrintStream Error");
+            System.exit(2);
+        }
+
+        
+
+        ///*  PRINT OUT Seller.dat
+        try {
+            PrintStream writetoSeller = new PrintStream(
+                new FileOutputStream("Seller.dat", true));
+
+            writetoSeller.append("\"" + sellerMap.get("UserID") + "\"" + "," +
+                            sellerMap.get("Rating") + "\n");
+
+        }
+        catch (Exception e) {
+            System.out.println("PrintStream Error");
+            System.exit(2);
+        }        
+
+        ///*  PRINT OUT Auction.dat
+        try {
+            PrintStream writetoAuction = new PrintStream(
+                new FileOutputStream("Auction.dat", true));
+
+            writetoAuction.append(itemMap.get("ItemID") + "," +
+                            "\"" + sellerMap.get("UserID") + "\"" + "\n");
+        }
+        catch (Exception e) {
+            System.out.println("PrintStream Error");
+            System.exit(2);
+        }
+
+        ///* ADD TO EbayUser.dat
+        try {
+            PrintStream writetoUser = new PrintStream(
+                new FileOutputStream("EbayUser.dat", true));
+
+            writetoUser.append(sellerMap.get("UserID") + "\n");
+        }
+        catch (Exception e) {
+            System.out.println("PrintStream Error");
+            System.exit(2);
+        }
+
+        
     }
 
     public static void main (String[] args) {
