@@ -19,9 +19,11 @@ FROM
 
 -- 4
 SELECT ItemID
-FROM (SELECT MAX(Currently), ItemID
-      FROM Item
-      WHERE Ends >= '2001-12-20 00:00:01') S;
+FROM Item
+WHERE Ends >='2001-12-20 00:00:01' AND Number_of_Bids > 0
+      AND Currently >= ALL (SELECT Currently
+     	  	    FROM Item
+		    WHERE Ends >='2001-12-20 00:00:01' AND Number_of_Bids > 0);
 
 -- 5
 SELECT COUNT(*)

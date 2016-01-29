@@ -283,6 +283,21 @@ class MyParser {
                             bidderMap.get("Location") + "," +
                             bidderMap.get("Country") + "\n");
 
+            /*
+            String locNull = bidderMap.get("Location");
+            String cntNull = bidderMap.get("Country");
+
+            if (locNull != null)
+                writetoBidder.append("\"" + locNull + "\"" + ",");
+            else
+                writetoBidder.append("\\N" + ",");
+
+            if (cntNull != null)
+                writetoBidder.append("\"" + cntNull + "\"" + "\n");
+            else
+                writetoBidder.append("\\N" + "\n");
+                */
+
         }
         catch (Exception e) {
             System.out.println("PrintStream Error");
@@ -309,7 +324,7 @@ class MyParser {
             PrintStream writetoUser = new PrintStream(
                 new FileOutputStream("EbayUser.dat", true));
 
-            writetoUser.append(bidderMap.get("UserID") + "\n");
+            writetoUser.append("\"" + bidderMap.get("UserID") + "\"" + "\n");
         }
         catch (Exception e) {
             System.out.println("PrintStream Error");
@@ -367,7 +382,34 @@ class MyParser {
             if (itemMap.containsKey(elemName)) {
                 org.w3c.dom.NodeList elemChild = nlist.item(i).getChildNodes();
 
-                if (elemChild.getLength() != 0) {
+                if (elemName == "Started" || elemName == "Ends") { // ex. Dec-09-01 20:16:20
+                    String itemTime = nlist.item(i).getFirstChild().getNodeValue();
+                    //System.out.println(bidTime);
+                    SimpleDateFormat xmlFormat = 
+                        new SimpleDateFormat("MMM-dd-yy HH:mm:ss");
+                    SimpleDateFormat tsFormat = 
+                        new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+                    Date parsed = null;
+                    try {
+                        parsed = xmlFormat.parse(itemTime);    
+                    }
+                    catch(ParseException pe) {
+                        System.out.println("ERROR: Cannot parse \"" + itemTime + "\"");
+                    }
+                    
+                    String sqlTime = tsFormat.format(parsed);
+
+                    itemMap.put(elemName, sqlTime);
+                    //System.out.println(sqlTime);
+
+                }
+                else if (elemName=="First_Bid" || elemName=="Currently") {
+                    String itemAmt = elemChild.item(0).getNodeValue();
+                    String sqlAmt = strip(itemAmt);
+                    itemMap.put(elemName, sqlAmt);
+                }
+                else if (elemChild.getLength() != 0) {
                     String result = elemChild.item(0).getNodeValue();
 
                     if (result.length() > 4000)
@@ -520,7 +562,7 @@ class MyParser {
             PrintStream writetoUser = new PrintStream(
                 new FileOutputStream("EbayUser.dat", true));
 
-            writetoUser.append(sellerMap.get("UserID") + "\n");
+            writetoUser.append("\"" + sellerMap.get("UserID")+ "\"" + "\n");
         }
         catch (Exception e) {
             System.out.println("PrintStream Error");

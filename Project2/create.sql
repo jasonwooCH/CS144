@@ -1,13 +1,13 @@
 CREATE TABLE Item (
        ItemID INT NOT NULL,
-       Name VARCHAR(40) NOT NULL,
+       Name VARCHAR(80) NOT NULL,
        Description VARCHAR(4000),
        First_Bid DECIMAL(8, 2) NOT NULL,
        Started TIMESTAMP NOT NULL,
        Ends TIMESTAMP NOT NULL,
        Number_of_Bids INT NOT NULL,
        Currently DECIMAL(8, 2) NOT NULL,
-       Country VARCHAR(20) NOT NULL,
+       Country VARCHAR(80) NOT NULL,
        Buy_Price DECIMAL(8, 2),
 
        PRIMARY KEY(ItemID),
@@ -19,7 +19,7 @@ CREATE TABLE Item (
 
 CREATE TABLE ItemCategory(
        ItemID INT NOT NULL,
-       Category VARCHAR(40) NOT NULL,
+       Category VARCHAR(80) NOT NULL,
 
        FOREIGN KEY(ItemID) REFERENCES Item(ItemID),
        PRIMARY KEY(ItemID, Category)
@@ -35,16 +35,16 @@ CREATE TABLE ItemLocation(
 ) ENGINE=InnoDB;
 
 CREATE TABLE EbayUser(
-       UserID VARCHAR(40) NOT NULL,
+       UserID VARCHAR(80) NOT NULL,
        
        PRIMARY KEY(UserID)
 ) ENGINE=InnoDB;
 
 CREATE TABLE Bidder(
-       UserID VARCHAR(40) NOT NULL,
+       UserID VARCHAR(80) NOT NULL,
        Rating INT NOT NULL,
        Location VARCHAR(80),
-       Country VARCHAR(40),
+       Country VARCHAR(80),
 
        FOREIGN KEY(UserID) REFERENCES EbayUser(UserID),
        PRIMARY KEY(UserID),
@@ -54,7 +54,7 @@ CREATE TABLE Bidder(
 
 CREATE TABLE Bids(
        ItemID INT NOT NULL,
-       UserID VARCHAR(40) NOT NULL,
+       UserID VARCHAR(80) NOT NULL,
        Amount DECIMAL(8, 2) NOT NULL,
        BidTime TIMESTAMP NOT NULL,
 
@@ -66,7 +66,7 @@ CREATE TABLE Bids(
 ) ENGINE=InnoDB;
 
 CREATE TABLE Seller(
-       UserID VARCHAR(40) NOT NULL,
+       UserID VARCHAR(80) NOT NULL,
        Rating INT NOT NULL,
 
        FOREIGN KEY(UserID) REFERENCES EbayUser(UserID),
@@ -77,7 +77,7 @@ CREATE TABLE Seller(
 
 CREATE TABLE Auction(
        ItemID INT NOT NULL,
-       UserID VARCHAR(40) NOT NULL,
+       UserID VARCHAR(80) NOT NULL,
 
        FOREIGN KEY(ItemID) REFERENCES Item(ItemID),
        FOREIGN KEY(UserID) REFERENCES Seller(UserID),
