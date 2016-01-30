@@ -36,11 +36,7 @@ FROM Seller S, Bidder B
 WHERE S.UserID = B.UserID;
 
 -- 7
-SELECT COUNT(*)
-FROM
-(
-	SELECT DISTINCT(Category) as Category
+	SELECT COUNT(DISTINCT Category)
 	FROM ItemCategory IC, Bids B
 	WHERE IC.ItemID = B.ItemID AND B.Amount > 100
-) S;
 

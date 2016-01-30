@@ -9,19 +9,30 @@ Item(ItemID, Name, Description, First_Bid, Started, Ends, Number_of_Bids, Curren
 
 ItemCategory(ItemID, Category) 
 	key - both
+	Foreign key - Item(ItemID)
 
 ItemLocation(ItemID, LocationName, Latitude[null], Longitude[null])
 	key - ItemID
+	Foreign key - Item(ItemID)
+
+EbayUser(UserID)
+	key - UserID
 
 Bidder(UserID, Rating, Location[null], Country[null])
 	key - UserID
+	Foreign key - EbayUser(UserID)
+	
 Bids(ItemID, UserID, Amount, Time)
 	key - ItemID, UserID
+	Foreign key - Item(ItemID), Bidder(UserID)
 
 Seller(UserID, Rating)
 	key - UserID
-Auction(ItemID, UserID)
+	Foreign key - User(UserID)
 
+Auction(ItemID, UserID)
+	key - both
+	Foreign key - Item(ItemID), Seller(UserID)
 
 2. Nontrivial FDs
 

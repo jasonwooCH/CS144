@@ -267,7 +267,7 @@ class MyParser {
                     Node info = bidderInfo.item(j);
                     String infoName = info.getNodeName();
                     if (bidderMap.containsKey(infoName))
-                        bidderMap.put(infoName, "\"" + info.getFirstChild().getNodeValue() + "\"");
+                        bidderMap.put(infoName, "`" + info.getFirstChild().getNodeValue() + "`");
                 }
             }
 
@@ -278,7 +278,7 @@ class MyParser {
                 new FileOutputStream("Bidder.dat", true));
 
 
-            writetoBidder.append("\"" + bidderMap.get("UserID") + "\"" + "," +
+            writetoBidder.append("`" + bidderMap.get("UserID") + "`" + "," +
                             bidderMap.get("Rating") + "," +
                             bidderMap.get("Location") + "," +
                             bidderMap.get("Country") + "\n");
@@ -310,7 +310,7 @@ class MyParser {
                 new FileOutputStream("Bids.dat", true));
 
             writetoBids.append(item_id + "," +
-                                "\"" + bidderMap.get("UserID") + "\"" + "," +
+                                "`" + bidderMap.get("UserID") + "`" + "," +
                                 bidsMap.get("Amount") + "," +
                                 bidsMap.get("Time") + "\n");
         }
@@ -324,7 +324,7 @@ class MyParser {
             PrintStream writetoUser = new PrintStream(
                 new FileOutputStream("EbayUser.dat", true));
 
-            writetoUser.append("\"" + bidderMap.get("UserID") + "\"" + "\n");
+            writetoUser.append("`" + bidderMap.get("UserID") + "`" + "\n");
         }
         catch (Exception e) {
             System.out.println("PrintStream Error");
@@ -480,14 +480,14 @@ class MyParser {
                 new FileOutputStream("Item.dat", true));
 
             writetoItem.append(itemMap.get("ItemID") + "," + 
-                           "\""+ itemMap.get("Name") + "\"" + "," +
-                           "\"" +itemMap.get("Description") + "\"" + "," +
+                           "`"+ itemMap.get("Name") + "`" + "," +
+                           "`" +itemMap.get("Description") + "`" + "," +
                            itemMap.get("First_Bid") + "," +
                            itemMap.get("Started") + "," +
                            itemMap.get("Ends") + "," +
                            itemMap.get("Number_of_Bids") + "," +
                            itemMap.get("Currently") + "," +
-                           "\"" + itemMap.get("Country") + "\"" + "," +
+                           "`" + itemMap.get("Country") + "`" + "," +
                            itemMap.get("Buy_Price") + "\n");
         }
         catch (Exception e) {
@@ -503,7 +503,7 @@ class MyParser {
 
             for (int i = 0; i < categoryList.size(); i++) 
                 writetoItemCat.append(itemMap.get("ItemID") + "," + 
-                                    "\"" + categoryList.get(i) + "\"" + "\n");
+                                    "`" + categoryList.get(i) + "`" + "\n");
         }
         catch (Exception e) {
             System.out.println("PrintStream Error");
@@ -518,7 +518,7 @@ class MyParser {
                 new FileOutputStream("ItemLocation.dat", true));
 
             writetoItemLoc.append(itemMap.get("ItemID") + "," +
-                                    "\"" + locationMap.get("Name") + "\"" + "," +
+                                    "`" + locationMap.get("Name") + "`" + "," +
                                     locationMap.get("Latitude") + "," +
                                     locationMap.get("Longitude") + "\n");
 
@@ -535,7 +535,7 @@ class MyParser {
             PrintStream writetoSeller = new PrintStream(
                 new FileOutputStream("Seller.dat", true));
 
-            writetoSeller.append("\"" + sellerMap.get("UserID") + "\"" + "," +
+            writetoSeller.append("`" + sellerMap.get("UserID") + "`" + "," +
                             sellerMap.get("Rating") + "\n");
 
         }
@@ -550,7 +550,7 @@ class MyParser {
                 new FileOutputStream("Auction.dat", true));
 
             writetoAuction.append(itemMap.get("ItemID") + "," +
-                            "\"" + sellerMap.get("UserID") + "\"" + "\n");
+                            "`" + sellerMap.get("UserID") + "`" + "\n");
         }
         catch (Exception e) {
             System.out.println("PrintStream Error");
@@ -562,7 +562,7 @@ class MyParser {
             PrintStream writetoUser = new PrintStream(
                 new FileOutputStream("EbayUser.dat", true));
 
-            writetoUser.append("\"" + sellerMap.get("UserID")+ "\"" + "\n");
+            writetoUser.append("`" + sellerMap.get("UserID")+ "`" + "\n");
         }
         catch (Exception e) {
             System.out.println("PrintStream Error");
