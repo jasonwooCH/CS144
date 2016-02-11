@@ -49,24 +49,41 @@ public class AuctionSearch implements IAuctionSearch {
          * placed at src/edu/ucla/cs/cs144.
          *
          */
-	
+
 	public SearchResult[] basicSearch(String query, int numResultsToSkip, 
 			int numResultsToReturn) {
-	/**
-	 * Performs a basic keyword search for the given query string.
-	 * 
-	 * @param query The keyword phrase for the search.
-	 * @param numResultsToSkip The desired number of results to skip from 
-	 * the beginning of the full results.
-	 * @param numResultsToReturn The desired number of results to return.
-	 * @return An array of at most numResultsToReturn SearchResult objects 
-	 * representing the results of the query after skipping numResultsToSkip
-	 * SearchResult objects.
-	 */
 
-		
+		try {
+			SearchEngine se = new SearchEngine();
 
-		// TODO: Your code here!
+			int total = numResultsToSkip + numResultsToReturn;
+
+			TopDocs topDocs = se.performSearch(query, total);
+			ScoreDoc[] hits = topDocs.scoreDocs;
+
+			SearchResult[] basicResult = new SearchResult[numResultsToReturn];
+
+			int j = 0;
+			for (int i = numResultsToSkip; i < total; i++, j++) {
+				//System.out.println(i + "\n");
+				try  {
+					Document doc = se.getDocument(hits[i].doc);
+					String doc_id = doc.get("id");
+					String doc_name = doc.get("name");
+
+					basicResult[j] = new SearchResult(doc_id, doc_name);
+
+					//TODO deal with when numResultsToReturn > actual
+				} catch (Exception e) {
+					break;
+				}
+			}
+
+			return basicResult;
+
+		} catch (Exception e) {
+			System.out.println(e + "\n");
+		}
 		return new SearchResult[0];
 	}
 

@@ -19,4 +19,5 @@ sort -u Auction.dat -o Auction.dat
 
 mysql CS144 < load.sql
 
+
 rm *dat

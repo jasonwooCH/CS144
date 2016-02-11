@@ -15,7 +15,7 @@ CREATE TABLE Item (
        	      Ends > Started AND
 	      First_Mid >= 0 AND
 	      Currently >= 0)
-) ENGINE=InnoDB;
+);
 
 CREATE TABLE ItemCategory(
        ItemID INT NOT NULL,
@@ -23,22 +23,22 @@ CREATE TABLE ItemCategory(
 
        FOREIGN KEY(ItemID) REFERENCES Item(ItemID),
        PRIMARY KEY(ItemID, Category)
-) ENGINE=InnoDB;
+);
 
 CREATE TABLE ItemLocation(
        ItemID INT NOT NULL,
        Location VARCHAR(80) NOT NULL,
-       Latitude DECIMAL(6, 6),
-       Longitude DECIMAL(6, 6),
+       Latitude DECIMAL(9, 6),
+       Longitude DECIMAL(9, 6),
 
        FOREIGN KEY(ItemID) REFERENCES Item(ItemID)
-) ENGINE=InnoDB;
+);
 
 CREATE TABLE EbayUser(
        UserID VARCHAR(80) NOT NULL,
        
        PRIMARY KEY(UserID)
-) ENGINE=InnoDB;
+);
 
 CREATE TABLE Bidder(
        UserID VARCHAR(80) NOT NULL,
@@ -50,7 +50,7 @@ CREATE TABLE Bidder(
        PRIMARY KEY(UserID),
 
        CHECK (Rating >= 0)
-) ENGINE=InnoDB;
+);
 
 CREATE TABLE Bids(
        ItemID INT NOT NULL,
@@ -63,7 +63,7 @@ CREATE TABLE Bids(
        PRIMARY KEY(ItemID, UserID, Amount, BidTime),
 
        CHECK (Amount >= 0)
-) ENGINE=InnoDB;
+);
 
 CREATE TABLE Seller(
        UserID VARCHAR(80) NOT NULL,
@@ -73,7 +73,7 @@ CREATE TABLE Seller(
        PRIMARY KEY(UserID),
 
        CHECK (Rating >= 0)
-) ENGINE=InnoDB;
+);
 
 CREATE TABLE Auction(
        ItemID INT NOT NULL,
@@ -82,4 +82,4 @@ CREATE TABLE Auction(
        FOREIGN KEY(ItemID) REFERENCES Item(ItemID),
        FOREIGN KEY(UserID) REFERENCES Seller(UserID),
        PRIMARY KEY(ItemID)
-) ENGINE=InnoDB;
+);
