@@ -1,4 +1,6 @@
 Reply: Test message
+762 VALUE OF J
+
 Basic Seacrh Query: star trek
 Received 762 results
 1045272701: Star trek:ALL ORNAMENTS 92-2000

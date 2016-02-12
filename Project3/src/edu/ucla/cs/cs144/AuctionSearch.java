@@ -73,13 +73,19 @@ public class AuctionSearch implements IAuctionSearch {
 
 					basicResult[j] = new SearchResult(doc_id, doc_name);
 
-					//TODO deal with when numResultsToReturn > actual
 				} catch (Exception e) {
 					break;
 				}
 			}
 
-			return basicResult;
+			System.out.println(j + " VALUE OF J\n");
+
+			SearchResult[] actualResult = new SearchResult[j];
+			for (int i = 0; i < j; i++) {
+				actualResult[i] = basicResult[i];
+			}
+
+			return actualResult;
 
 		} catch (Exception e) {
 			System.out.println(e + "\n");
@@ -89,7 +95,9 @@ public class AuctionSearch implements IAuctionSearch {
 
 	public SearchResult[] spatialSearch(String query, SearchRegion region,
 			int numResultsToSkip, int numResultsToReturn) {
-		// TODO: Your code here!
+
+
+
 		return new SearchResult[0];
 	}
 

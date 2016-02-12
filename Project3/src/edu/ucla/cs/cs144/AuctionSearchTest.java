@@ -18,14 +18,14 @@ public class AuctionSearchTest {
         } catch (Exception e) {
              e.printStackTrace();
         }
-     
+   
 
 		String message = "Test message";
 		String reply = as.echo(message);
 		System.out.println("Reply: " + reply);
 		
 		String query = "star trek";
-		SearchResult[] basicResults = as.basicSearch(query, 0, 762);
+		SearchResult[] basicResults = as.basicSearch(query, 0, 800);
 		System.out.println("Basic Seacrh Query: " + query);
 		System.out.println("Received " + basicResults.length + " results");
 		for(SearchResult result : basicResults) {
