@@ -14,6 +14,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import java.lang.*;
+
 import org.apache.lucene.document.Document;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
@@ -229,6 +231,88 @@ public class AuctionSearch implements IAuctionSearch {
 		return new SearchResult[0];
 	}
 
+	public String escapeChars(String value) {
+		if (value == null)
+			return value;
+
+		int len = value.length();
+		int extra = 0;
+
+		String quote = "&quot;"; char qarr[] = quote.toCharArray();
+		String apos = "&apos;"; char aparr[] = apos.toCharArray();
+		String lt = "&lt;"; char ltarr[] = lt.toCharArray();
+		String gt = "&gt;"; char gtarr[] = gt.toCharArray();
+		String amp = "&amp;"; char amparr[] = amp.toCharArray();
+
+		char arr[] = value.toCharArray();
+
+		for (int i = 0; i < len; i++ ) { 
+			if (arr[i] == '\"') 
+			{ 
+				extra += (quote.length() - 1); 
+			} 
+			else if (arr[i] == '\'') 
+			{ 
+				extra += (apos.length() - 1); 
+			} 
+			else if (arr[i] == '<') 
+			{ 
+				extra += (lt.length() - 1); 
+			} 
+			else if (arr[i] == '>') 
+			{ 
+				extra += (gt.length() - 1); 
+			} 
+			else if (arr[i] == '&') 
+			{ 
+				extra += (amp.length() - 1); 
+			} 
+		}
+
+		if (extra == 0) { 
+			return value; 
+		} 
+		else { 
+			char[] rcp = new char[len + extra];
+
+			int j = 0;
+			for (int i = 0; i < len; i++) { 
+				if (arr[i] == '\'') { 
+					for (int h = 0; h < apos.length(); h++, j++) {
+						rcp[j] = aparr[h];
+					}
+				} 
+				else if (arr[i] == '<') { 
+					for (int h = 0; h < lt.length(); h++, j++) {
+						rcp[j] = ltarr[h];
+					}
+				} 
+				else if (arr[i] == '>') { 
+					for (int h = 0; h < gt.length(); h++, j++) {
+						rcp[j] = gtarr[h];
+					}
+				} 
+				else if (arr[i] == '\"') { 
+					for (int h = 0; h < quote.length(); h++, j++) {
+						rcp[j] = qarr[h];
+					} 
+				} 
+				else if (arr[i] == '&') { 
+					for (int h = 0; h < amp.length(); h++, j++) {
+						rcp[j] = amparr[h];
+					}
+				} 
+				else { 
+					rcp[j] = arr[i];
+					j++;
+				} 
+			}
+
+			String escaped = new String(rcp);
+			return escaped; 
+		} 
+	}
+
 	/**
 	 * Rebuilds an Item XML Element (and all of its sub-Elements), for the given
 	 * ItemId.
@@ -239,6 +323,7 @@ public class AuctionSearch implements IAuctionSearch {
 	 * is not valid.
 	 */
 	public String getXMLDataForItemId(String itemId) {
+		// TODO: ESCAPE CHARACTERES -> aux fxn, then pass return values in to it
 	
 		Connection conn = null;
 
@@ -270,13 +355,16 @@ public class AuctionSearch implements IAuctionSearch {
 
             	// here if match found
 				item_name = itemResult.getString("Name");
+					item_name = escapeChars(item_name);
 				item_desc = itemResult.getString("Description");
+					item_desc = escapeChars(item_desc);
 				first_bid = itemResult.getString("First_Bid");
 				started = itemResult.getString("Started");
 				ends = itemResult.getString("Ends");
 				num_bids = itemResult.getString("Number_of_Bids");
 				currently = itemResult.getString("Currently");
 				country = itemResult.getString("Country");
+					country = escapeChars(country);
 				buy_price = itemResult.getString("Buy_Price");
 
 
@@ -296,6 +384,7 @@ public class AuctionSearch implements IAuctionSearch {
             	while(catResult.next()) {
 
             		String curr_cat = catResult.getString("Category");
+            			curr_cat = escapeChars(curr_cat);
             		returnXML+="  <Category>"+curr_cat+"</Category>\n";
 
             		//categoryTags.add("  <Category>"+curr_cat+"</Category>\n");
@@ -362,7 +451,9 @@ public class AuctionSearch implements IAuctionSearch {
 
 	            			bidderRating = bidderResult.getString("Rating");
 	            			bidderLoc = bidderResult.getString("Location");
+	            				bidderLoc = escapeChars(bidderLoc);
 	            			bidderCountry = bidderResult.getString("Country");
+	            				bidderCountry = escapeChars(bidderCountry);
 
 	            			bidderTag = "      <Bidder Rating=" + "\"" + bidderRating + "\" "
 	            						+ "UserID=" + "\"" + bidderId + "\">\n";
@@ -444,7 +535,7 @@ public class AuctionSearch implements IAuctionSearch {
             	String descTag = "  <Description>" + item_desc + "</Description>\n";
             	returnXML+=descTag;
 
-            	// TODO: get seller info
+
             	ResultSet sellerResult = stmt.executeQuery("SELECT * FROM Auction A, Seller S WHERE ItemID="
             												+ itemId + " AND A.UserID=S.UserID;");
             	String sellerId=""; 
@@ -455,7 +546,7 @@ public class AuctionSearch implements IAuctionSearch {
             		//System.out.println(sellerId + "\n" + sellerRating);
             	}
 
-            	// TODO: add started and ends here
+
             	returnXML+=startedTag;
             	returnXML+=endsTag;
 

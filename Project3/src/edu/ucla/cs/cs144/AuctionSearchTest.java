@@ -24,7 +24,7 @@ public class AuctionSearchTest {
 		String reply = as.echo(message);
 		System.out.println("Reply: " + reply);
 		
-		String query = "superman";
+		String query = "star trek";
 		SearchResult[] basicResults = as.basicSearch(query, 0, 800);
 		System.out.println("Basic Seacrh Query: " + query);
 		System.out.println("Received " + basicResults.length + " results");
@@ -49,6 +49,11 @@ public class AuctionSearchTest {
 
 		// Add your own test here
 		itemId = "1043495702";
+		item = as.getXMLDataForItemId(itemId);
+		System.out.println("XML data for ItemId: " + itemId);
+		System.out.println(item);
+
+		itemId = "1043650580";
 		item = as.getXMLDataForItemId(itemId);
 		System.out.println("XML data for ItemId: " + itemId);
 		System.out.println(item);
