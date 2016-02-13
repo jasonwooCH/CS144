@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.text.SimpleDateFormat;
 
-import java.sql.*;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -120,7 +119,7 @@ public class AuctionSearch implements IAuctionSearch {
 											+ rx + " " + ly + ", "
 											+ lx + " " + ly + ", "
 											+ lx + " " + ry + "))';}"); 
-											//+ "SELECT ItemID FROM ItemPoint WHERE MBRContains(GeomFromText(@box), Coords);}");
+									//+ "SELECT ItemID FROM ItemPoint WHERE MBRContains(GeomFromText(@box), Coords);}");
 			*/
 
 			String box = "Polygon((" 
@@ -168,12 +167,12 @@ public class AuctionSearch implements IAuctionSearch {
             		
             		String result_id = regionResult.getString("ItemID");
             		if (curr_id.equals(result_id)) {
-            			System.out.println("SPATIAL FOUND MATCH\n");
+            			//System.out.println("SPATIAL FOUND MATCH\n");
             			j++; break;
             		}
             	}
 
-            	regionResult.first();
+            	regionResult.beforeFirst();
 			}
 
 			// not enough to skip
@@ -230,8 +229,258 @@ public class AuctionSearch implements IAuctionSearch {
 		return new SearchResult[0];
 	}
 
+	/**
+	 * Rebuilds an Item XML Element (and all of its sub-Elements), for the given
+	 * ItemId.
+	 * 
+	 * @param itemId The ItemId of an item.
+	 * @return A String of valid XML data (conforming to the original items.dtd)
+	 * containing data about the requested itemId. null is returned when itemId 
+	 * is not valid.
+	 */
 	public String getXMLDataForItemId(String itemId) {
-		// TODO: Your code here!
+	
+		Connection conn = null;
+
+		//SearchResult[] basicResult = basicSearch(query, 0, 13000);
+
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+
+    	    conn = DbManager.getConnection(true);
+
+            Statement stmt = conn.createStatement();
+
+            ResultSet itemResult = stmt.executeQuery("SELECT * FROM Item WHERE ItemID =" + itemId + ";");
+
+            String item_id, 
+            		item_name, 
+            		item_desc, 
+            		first_bid, 
+            		started, ends, num_bids, currently, country, buy_price;
+
+           	String returnXML = "";
+
+            if (itemResult.next()) {
+
+            	item_id = itemResult.getString("ItemID");
+            	// no match
+            	if (!itemId.equals(item_id))
+            		return "";
+
+            	// here if match found
+				item_name = itemResult.getString("Name");
+				item_desc = itemResult.getString("Description");
+				first_bid = itemResult.getString("First_Bid");
+				started = itemResult.getString("Started");
+				ends = itemResult.getString("Ends");
+				num_bids = itemResult.getString("Number_of_Bids");
+				currently = itemResult.getString("Currently");
+				country = itemResult.getString("Country");
+				buy_price = itemResult.getString("Buy_Price");
+
+
+            	String rootTag = "<Item ItemID=\""+itemId+"\">\n";
+            	//returnXML.concat(rootTag);
+            	returnXML += rootTag;
+            	//System.out.println(rootTag);
+            	//System.out.println(returnXML);
+            	
+            	String nameTag = "  <Name>"+item_name+"</Name>\n";
+            	returnXML+=nameTag;
+
+            	ResultSet catResult = stmt.executeQuery("SELECT Category FROM ItemCategory WHERE ItemID="
+            												+ itemId + ";");
+            	//List<String> categoryTags = new ArrayList<String>();
+
+            	while(catResult.next()) {
+
+            		String curr_cat = catResult.getString("Category");
+            		returnXML+="  <Category>"+curr_cat+"</Category>\n";
+
+            		//categoryTags.add("  <Category>"+curr_cat+"</Category>\n");
+            	}
+            	/*
+            		System.out.println(rootTag + "\n" + nameTag);
+            		for (int i = 0; i < categoryTags.size(); i++) {
+            			System.out.println(categoryTags.get(i));
+            		}
+				*/
+
+            	String currTag = "  <Currently>" + currently + "</Currently>\n";
+            	returnXML+=currTag;
+            	String fbTag = "  <First_Bid>" + first_bid + "</First_Bid>\n";
+            	returnXML+=fbTag;
+            	String numTag = "  <Number_of_Bids>" + num_bids + "</Number_of_Bids>\n";
+            	returnXML+=numTag;
+
+            	/*  
+					Started & Ends - Time format conversion
+            	*/
+            	SimpleDateFormat xmlFormat = 
+                    new SimpleDateFormat("MMM-dd-yy HH:mm:ss");
+                SimpleDateFormat tsFormat = 
+                    new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                Date parsed = null;
+
+            	parsed = tsFormat.parse(started);    
+                String xmlStarted = xmlFormat.format(parsed);
+                String startedTag = "  <Started>" + xmlStarted + "</Started>\n";
+
+                parsed = tsFormat.parse(ends);
+                String xmlEnds = xmlFormat.format(parsed);
+                String endsTag = "  <Ends>" + xmlEnds + "</Ends>\n";
+
+
+            	/*
+					Process and Format Bid tags
+            	*/
+            	String bidsRoot = "";
+            	if (!num_bids.equals("0")) {
+
+            		Statement stmt1 = conn.createStatement();
+            		ResultSet bidResult = stmt1.executeQuery("SELECT * FROM Bids WHERE ItemID="
+            												+ itemId + ";");
+            		bidsRoot = "  <Bids>\n";
+            		returnXML+=bidsRoot;
+            	
+
+	            	String bidderId, bidTime, bidAmt;
+
+	            	while (bidResult.next()) {
+
+	            		bidderId = bidResult.getString("UserID");
+	            		bidTime = bidResult.getString("BidTime");
+	            		bidAmt = bidResult.getString("Amount");
+
+	            		ResultSet bidderResult = stmt.executeQuery("SELECT * FROM Bidder WHERE UserID="
+	            													+ "\"" + bidderId +"\""+ ";");
+	            		returnXML+="    <Bid>\n";
+
+	            		String bidderRating, bidderLoc, bidderCountry, bidderTag;
+	            		if (bidderResult.next()) {
+
+	            			bidderRating = bidderResult.getString("Rating");
+	            			bidderLoc = bidderResult.getString("Location");
+	            			bidderCountry = bidderResult.getString("Country");
+
+	            			bidderTag = "      <Bidder Rating=" + "\"" + bidderRating + "\" "
+	            						+ "UserID=" + "\"" + bidderId + "\">\n";
+	            			returnXML+=bidderTag;
+
+	            			// System.out.println(bidderTag);
+
+	            			String bidderLocTag = "";
+	            			if (bidderLoc != null)
+	            				bidderLocTag = "        <Location>" + bidderLoc + "</Location>\n";
+	            			returnXML+=bidderLocTag;
+
+	            			String bidderCountryTag = "";
+	            			if (bidderCountry != null)
+	            				bidderCountryTag = "        <Country>" + bidderCountry + "</Country>\n";
+	            			returnXML+=bidderCountryTag;
+	            		}
+
+		            	/*  
+							BidTime - Time format conversion
+		            	*/
+		            	parsed = tsFormat.parse(bidTime);    
+		                String xmlBidTime = xmlFormat.format(parsed);
+		                String bidTimeTag = "      <Time>" + xmlStarted + "</Time>\n";
+		                returnXML+=bidTimeTag;
+
+		                //System.out.println(bidTimeTag);
+
+		                String bidAmtTag = "      <Amount>" + "$" + bidAmt + "</Amount>\n";
+		                returnXML+=bidAmtTag;
+		                //System.out.println(bidAmtTag);
+		                returnXML+="    </Bid>\n";
+
+		            }
+		            returnXML+="  </Bids>\n";
+		        }
+
+
+
+            	/*
+					Parse and format Location tag
+            	*/
+            	ResultSet locResult = stmt.executeQuery("SELECT * FROM ItemLocation WHERE ItemID="
+            											+ itemId + ";");
+            	String locationTag = "";
+            	if (locResult.next()) {
+            		String locVal = locResult.getString("Location");
+            		String locLat = locResult.getString("Latitude");
+            		String locLong = locResult.getString("Longitude");
+
+            		//System.out.println("Here is lat " + locLat + "\n");
+            		//System.out.println("NULL WHERE?");
+
+
+            		if (locLat != null)
+            			locLat = " Latitude=" + "\""+locLat+"\" ";
+            		else
+            			locLat = "";
+
+            		if (locLong != null)
+            			locLong = "Longitude=" + "\""+locLong+"\"";
+            		else
+            			locLong = "";
+
+
+            		locationTag = 
+            			"  <Location" + locLat + locLong + ">" + locVal + "</Location>\n";
+            		returnXML+=locationTag;
+            	}
+
+            	//System.out.println(locationTag + "\n");
+
+
+            	String countryTag = "  <Country>" + country + "</Country>\n";
+            	returnXML+=countryTag;
+
+                //System.out.println(xmlStarted + "\n" + xmlEnds + "\n");;
+
+            	String descTag = "  <Description>" + item_desc + "</Description>\n";
+            	returnXML+=descTag;
+
+            	// TODO: get seller info
+            	ResultSet sellerResult = stmt.executeQuery("SELECT * FROM Auction A, Seller S WHERE ItemID="
+            												+ itemId + " AND A.UserID=S.UserID;");
+            	String sellerId=""; 
+            	String sellerRating="";
+            	if(sellerResult.next()) {
+            		sellerId = sellerResult.getString("UserID");
+            		sellerRating = sellerResult.getString("Rating");
+            		//System.out.println(sellerId + "\n" + sellerRating);
+            	}
+
+            	// TODO: add started and ends here
+            	returnXML+=startedTag;
+            	returnXML+=endsTag;
+
+            	String sellerTag = "  <Seller Rating=" + "\"" + sellerRating + "\" "
+            						+ "UserID=" + "\"" + sellerId + "\" />\n";
+            	//System.out.println(sellerTag);
+            	returnXML+=sellerTag;
+
+
+            	String rootClose = "</Item>\n";
+            	returnXML += rootClose;
+
+            	//System.out.println(returnXML);
+
+            	return returnXML;
+
+            }
+            else // no match
+            	return "";
+
+
+        } catch (Exception e) {
+        	System.out.println(e + "\n");
+        }
+        
 		return "";
 	}
 	
