@@ -1,3 +1,5 @@
+USING 1 DAY GRACE PERIOD
+
 This example contains a simple utility class to simplify opening database
 connections in Java applications, such as the one you will write to build
 your Lucene index. 

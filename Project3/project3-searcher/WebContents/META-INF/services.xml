@@ -9,6 +9,7 @@
     </messageReceivers>
     <operation name="echo" mep="http://www.w3.org/2004/08/wsdl/in-out" />
     <operation name="basicSearch" mep="http://www.w3.org/2004/08/wsdl/in-out" />
-    <operation name="advancedSearch" mep="http://www.w3.org/2004/08/wsdl/in-out" />
+    <operation name="spatialSearch" mep="http://www.w3.org/2004/08/wsdl/in-out" />
     <operation name="getXMLDataForItemId" mep="http://www.w3.org/2004/08/wsdl/in-out" />
+    <operation name="escapeChars" mep="http://www.w3.org/2004/08/wsdl/in-out" />
 </service>

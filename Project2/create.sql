@@ -32,7 +32,7 @@ CREATE TABLE ItemLocation(
        Longitude DECIMAL(9, 6),
 
        FOREIGN KEY(ItemID) REFERENCES Item(ItemID)
-);
+) ENGINE=MyISAM;
 
 CREATE TABLE EbayUser(
        UserID VARCHAR(80) NOT NULL,
