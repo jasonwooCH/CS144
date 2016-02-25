@@ -396,9 +396,9 @@ public class AuctionSearch implements IAuctionSearch {
             		}
 				*/
 
-            	String currTag = "  <Currently>" + currently + "</Currently>\n";
+            	String currTag = "  <Currently>" + "$" + currently + "</Currently>\n";
             	returnXML+=currTag;
-            	String fbTag = "  <First_Bid>" + first_bid + "</First_Bid>\n";
+            	String fbTag = "  <First_Bid>" + "$" + first_bid + "</First_Bid>\n";
             	returnXML+=fbTag;
             	String numTag = "  <Number_of_Bids>" + num_bids + "</Number_of_Bids>\n";
             	returnXML+=numTag;
@@ -470,6 +470,7 @@ public class AuctionSearch implements IAuctionSearch {
 	            			if (bidderCountry != null)
 	            				bidderCountryTag = "        <Country>" + bidderCountry + "</Country>\n";
 	            			returnXML+=bidderCountryTag;
+	            			returnXML+="      </Bidder>";
 	            		}
 
 		            	/*  
@@ -477,7 +478,7 @@ public class AuctionSearch implements IAuctionSearch {
 		            	*/
 		            	parsed = tsFormat.parse(bidTime);    
 		                String xmlBidTime = xmlFormat.format(parsed);
-		                String bidTimeTag = "      <Time>" + xmlStarted + "</Time>\n";
+		                String bidTimeTag = "      <Time>" + xmlBidTime + "</Time>\n";
 		                returnXML+=bidTimeTag;
 
 		                //System.out.println(bidTimeTag);
