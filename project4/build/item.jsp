@@ -9,7 +9,7 @@
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> 
 		<style type="text/css"> 
 		  html { height: 100% } 
-		  body { height: 100%; margin: 0px; padding: 0px } 
+		  body { height: 100%; padding: 0px } 
 		  #map_canvas { height: 100% } 
 		</style> 
 		<script type="text/javascript" 
