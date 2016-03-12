@@ -14,9 +14,15 @@
 	* Using JDBC to access DB in Java
 	* Using Lucene to build and use an inverted index
 	* Spatial Index in MySQL
+	* Implementing keyword and spatial search functionalities
 	* Using Apache Tomcat and Axis2 to publish a Web service
 
 ### Project 4: 
 	* Building a website using Java servlet and JSP
 	* Accessing remote Web services in SOAP and AJAX
 	* Dynamic user interfaces (search suggestions with ProxyServlet to Google Suggest) in JavaScript 
+
+### Project 5:
+    	* Enabling Secure Transaction
+	* Store purchase information on the server with HTTP session to avoid client-state-manipulation
+	* Enable transaction communication through SSL using HTTPS
